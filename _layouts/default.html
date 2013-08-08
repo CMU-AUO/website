@@ -18,105 +18,55 @@
 <body>
 
 <!-- Navigation -->
-<!--
   <nav class="top-bar">
     <ul class="title-area">
       <li class="name">
         <h1>
-          <a href="#">
-            Top Bar Title
+          <a href="/">
+            AUO - {{page.title}}
           </a>
         </h1>
       </li>
-      <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+      <li class="toggle-topbar menu-icon"><a href="#"><span>nav</span></a></li>
     </ul>
  
     <section class="top-bar-section">
       <ul class="right">
         <li class="divider"></li>
-        <li class="has-dropdown">
-          <a href="#">Main Item 1</a>
-          <ul class="dropdown">
-            <li><label>Section Name</label></li>
-            <li class="has-dropdown">
-              <a href="#" class="">Has Dropdown, Level 1</a>
-              <ul class="dropdown">
-                <li><a href="#">Dropdown Options</a></li>
-                <li><a href="#">Dropdown Options</a></li>
-                <li><a href="#">Level 2</a></li>
-                <li><a href="#">Subdropdown Option</a></li>
-                <li><a href="#">Subdropdown Option</a></li>
-                <li><a href="#">Subdropdown Option</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li><a href="#">Dropdown Option</a></li>
+
+        {% for p in site.pages %}
+            {% if page.url == p.url %}
+                <li class="active"><a href="{{p.url}}" class="active">{{p.title}}</a></li>
+            {% else %}
+                <li><a href="{{p.url}}">{{p.title}}</a></li>
+            {% endif %}
             <li class="divider"></li>
-            <li><label>Section Name</label></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li class="divider"></li>
-            <li><a href="#">See all &rarr;</a></li>
-          </ul>
-        </li>
-        <li class="divider"></li>
-        <li><a href="#">Main Item 2</a></li>
-        <li class="divider"></li>
-        <li class="has-dropdown">
-          <a href="#">Main Item 3</a>
-          <ul class="dropdown">
-            <li><a href="#">Dropdown Option</a></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li><a href="#">Dropdown Option</a></li>
-            <li class="divider"></li>
-            <li><a href="#">See all &rarr;</a></li>
-          </ul>
-        </li>
+        {% endfor %}
       </ul>
     </section>
   </nav>
--->
   <!-- End Top Bar -->
 
 
- <div class="banner hide-for-small">
+ <div class="banner">
      {{ content }}
  </div>
-  <div class="row">
-    <div class="large-12 columns">
-
-    <!-- Content Slider -->
-
-    <!-- End Content Slider -->
-
-    <!-- Mobile Header -->
-
-      <div class="row">
-        <div class="large-12 columns show-for-small">
-
-          <img src="http://placehold.it/1200x700&text=Mobile Header">
-
-        </div>
-      </div><br>
-
-    <!-- End Mobile Header -->
-
-
-
-    <!-- End Content -->
-
 
     <!-- Footer -->
 
       <footer class="row">
-        <div class="large-12 columns"><hr>
+        <div class="large-12 columns" id="foot" >
+        <div class="panel" >
             <div class="row">
 
-              <div class="large-6 columns">
-                  <p>&copy; Copyright no one at all. Go to town.</p>
+              <div class="large-6 small-12 large-left text-center columns" id="copy" >
+                  &copy; Copyright CMU All-University Orchestra.
+              </div>
+              <div class="large-6 small-12 large-left text-center columns" id="copy" >
+                  Questions? Comments? Email <a href="mailto:auo@andrew.cmu.edu">auo@andrew.cmu.edu</a>
               </div>
 
+                  <!--
               <div class="large-6 small-12 columns">
                   <ul class="inline-list right">
                     <li><a href="#">Link 1</a></li>
@@ -125,15 +75,15 @@
                     <li><a href="#">Link 4</a></li>
                   </ul>
               </div>
+                  -->
 
+            </div>
             </div>
         </div>
       </footer>
 
     <!-- End Footer -->
 
-    </div>
-  </div>
 
   <script>
   document.write('<script src=js/vendor/' +
