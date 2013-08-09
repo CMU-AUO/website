@@ -31,8 +31,9 @@ nav img
     opacity: 0.95;
 }
 
-.columns
+ul.indent
 {
+    margin-left: 30px;
 }
 
 em
