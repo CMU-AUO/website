@@ -1,0 +1,29 @@
+<nav class="top-bar">
+  <ul class="title-area">
+    <li class="name">
+      <h1>
+        <a href="/">
+          AUO - {{page.title}}
+        </a>
+      </h1>
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#"><span>nav</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <ul class="right">
+      <li class="divider"></li>
+
+      {% for p in site.pages %}
+          {% if p.show_in_nav == true %}
+              {% if page.url == p.url %}
+                  <li class="active"><a href="{{p.url}}" class="active">{{p.title}}</a></li>
+              {% else %}
+                  <li><a href="{{p.url}}">{{p.title}}</a></li>
+              {% endif %}
+              <li class="divider"></li>
+          {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+</nav>
