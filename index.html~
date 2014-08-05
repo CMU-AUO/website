@@ -1,19 +1,17 @@
 ---
-layout: bgimage
+layout: thin
 title: Home
 show_in_nav: true
 ---
 <div class="row">
     <div class="small-12 columns small-centered text-center" id="header" >
-        <h2>Carnegie Mellon All-University Orchestra</h2>
+        <h2>Carnegie Mellon All University Orchestra</h2>
     </div> 
 </div>
 
 <div class="panel" id="welcome">
     <h3 class="text-left" >Welcome</h3>
     <hr />
-
-    <div class="row">
 
         <div style="padding: 0 0 0 20px; float:right;">
             <iframe width="560" height="315" src="//www.youtube.com/embed/ej-jDpGtv7w" 
@@ -22,7 +20,7 @@ show_in_nav: true
 
         <div style="padding: 10px 0 0 0">
             <p class="text-left" >
-            The Carnegie Mellon All-University Orchestra is an ensemble composed of CMU undergrads,
+            The Carnegie Mellon All University Orchestra is an ensemble composed of CMU undergrads,
             graduate students, staff, and faculty who love to make music. There are no auditions or
             try-outs - everyone is welcome!
             </p>
@@ -32,7 +30,6 @@ show_in_nav: true
             year's schedule and recordings of some of our past concerts.
             </p>
         </div>
-    </div>
 </div>
 
 
