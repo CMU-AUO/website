@@ -1,5 +1,5 @@
 ---
-layout: thin
+layout: bgimage
 title: Home
 show_in_nav: true
 ---
@@ -13,6 +13,7 @@ show_in_nav: true
     <h3 class="text-left" >Welcome</h3>
     <hr />
 
+    <div class="row">
         <div style="padding: 0 0 0 20px; float:right;">
             <iframe width="560" height="315" src="//www.youtube.com/embed/ej-jDpGtv7w" 
             frameborder="0" allowfullscreen></iframe>
@@ -30,6 +31,7 @@ show_in_nav: true
             year's schedule and recordings of some of our past concerts.
             </p>
         </div>
+    </div>
 </div>
 
 
