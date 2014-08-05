@@ -1,0 +1,173 @@
+---
+layout: thin
+title: "Concerts"
+show_in_nav: true
+---
+
+<div class="row">
+    <div class="small-12 columns small-centered text-center" id="header" >
+        <h1></h1>
+    </div> 
+</div>
+
+<div class="panel" id="poster1" >
+    <center>
+        <a href="/files/poster-concerto-aria-2014.pdf">
+            <img src="/img/poster-concerto-aria-2014.png" />
+        </a>
+    </center>
+</div>
+
+<div class="panel" id="poster2" >
+    <center>
+        <a href="/files/poster-fall-2013.pdf">
+            <img src="/img/poster-fall-2013.png" />
+        </a>
+    </center>
+</div>
+
+
+
+<div class="row">
+    <div class="small-12 columns small-centered text-center" id="header" >
+        <h3>2014 - 2015 AUO Members</h3>
+    </div>
+</div>
+
+
+<div class="row">
+<!-- LEFT COLUMN -->
+
+    <div class="large-6 small-12 columns text-center" >
+        <div class="panel" id="auomembersleft" >
+            <h5>Violin</h5>
+            <p class="text-center" >
+                <!-- insert names -->
+            </p>
+            <hr />
+
+            <h5>Viola</h5>
+            <p class="text-center" >
+                <!-- insert names -->
+            </p>
+            <hr />
+
+            <h5>Cello</h5>
+            <p class="text-center" >
+                <!-- insert names -->
+            </p>
+            <hr />
+
+            <h5>Bass</h5>
+            <p class="text-center" >
+                <!-- insert names -->
+            </p>
+            <hr />
+        </div>
+    </div>
+
+<!-- RIGHT COLUMN -->
+
+    <div class="large-6 small-12 columns text-center" >
+        <div class="panel" id="auomembersright" >
+            <h5>Flue</h5>
+            <p class="text-center" >
+                <!-- insert names -->
+            </p>
+            <hr />
+
+            <h5>Oboe</h5>
+            <p class="text-center" >
+                <!-- insert names -->
+            </p>
+            <hr />
+
+            <h5>Clarinet</h5>
+            <p class="text-center" >
+                <!-- insert names -->
+            </p>
+            <hr />
+
+            <h5>Bassoon</h5>
+            <p class="text-center" >
+                <!-- insert names -->
+            </p>
+            <hr />
+
+            <h5>Horn</h5>
+            <p class="text-center" >
+                <!-- insert names -->
+            </p>
+            <hr />
+
+            <h5>Trumpet</h5>
+            <p class="text-center" >
+                <!-- insert names -->
+            </p>
+            <hr />
+
+            <h5>Trombone</h5>
+            <p class="text-center" >
+                <!-- insert names -->
+            </p>
+            <hr />
+
+            <h5>Tuba</h5>
+            <p class="text-center" >
+                <!-- insert names -->
+            </p>
+            <hr />
+
+            <h5>Timpani/Percussion</h5>
+            <p class="text-center" >
+                <!-- insert names -->
+            </p>
+            <hr />
+        </div>
+    </div>
+
+</div>
+
+
+<div class="row">
+    <div class="small-12 columns small-centered text-center" id="header" >
+        <h3>2014 - 2015 String Theory Members</h3>
+    </div>
+</div>
+
+
+<div class="panel text-center" id="stmembers" >
+    <h5>Violin</h5>
+    <p class="text-center" >
+        <!-- insert names -->
+    </p>
+    <hr />
+
+    <h5>Viola</h5>
+    <p class="text-center" >
+        <!-- insert names -->
+    </p>
+    <hr />
+
+    <h5>Cello</h5>
+    <p class="text-center" >
+        <!-- insert names -->
+    </p>
+    <hr />
+
+    <h5>Bass</h5>
+    <p class="text-center" >
+        <!-- insert names -->
+    </p>
+    <hr />
+</div>
+
+
+
+
+
+
+
+
+
+

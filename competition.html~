@@ -1,0 +1,28 @@
+---
+layout: thin
+title: "Competition"
+show_in_nav: true
+---
+
+<div class="row">
+    <div class="small-12 columns small-centered text-center" id="header" >
+        <h1>2014 Concerto &amp; Aria Competition</h1>
+    </div> 
+</div>
+
+<div class="panel" id="intro" >
+    <p>
+        We're excited to announce our first ever Concerto &amp; Aria Competition
+        for 2014.  The competition will be held on April 19, 2014, and winners
+        may be selected to perform with the AUO in the 2014-2015 concert season.
+        Applications are due by <em> Friday, February 28</em>.  If you have any
+        questions, please email <a
+        href="mailto:competition@alluniversityorchestra.org">competition@alluniversityorchestra.org</a>.
+        The application form can be found <a href="/files/application-concerto-aria-2014.pdf">here</a>.
+        <center>
+        <a href="/files/poster-concerto-aria-2014.pdf">
+            <img src="/img/poster-concerto-aria-2014.png" />
+        </a>
+        </center>
+    </p>
+</div>

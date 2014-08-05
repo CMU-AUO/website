@@ -1,6 +1,6 @@
 body
 {
-    background-image: url('') !important;
+    background-image: url('/img/cfa-banner-big.png') !important;
     background-repeat:no-repeat;
     background-position:left top;
     background-attachment:fixed;

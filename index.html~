@@ -5,7 +5,7 @@ show_in_nav: true
 ---
 <div class="row">
     <div class="small-12 columns small-centered text-center" id="header" >
-        <h2>Carnegie Mellon All University Orchestra</h2>
+        <h2>Carnegie Mellon All-University Orchestra</h2>
     </div> 
 </div>
 
@@ -22,7 +22,7 @@ show_in_nav: true
 
         <div style="padding: 10px 0 0 0">
             <p class="text-left" >
-            The Carnegie Mellon All University Orchestra is an ensemble composed of CMU undergrads,
+            The Carnegie Mellon All-University Orchestra is an ensemble composed of CMU undergrads,
             graduate students, staff, and faculty who love to make music. There are no auditions or
             try-outs - everyone is welcome!
             </p>

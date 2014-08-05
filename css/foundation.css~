@@ -2941,8 +2941,8 @@ label.error {
     background: #090909;
     color: white; }
   .top-bar-section ul li.active > a {
-    background: #090909;
-    color: red; }
+    background: #e90909;
+    color: white; }
   .top-bar-section .has-form {
     padding: 15px; }
   .top-bar-section .has-dropdown {
