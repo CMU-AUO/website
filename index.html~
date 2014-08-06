@@ -5,17 +5,20 @@ show_in_nav: true
 ---
 <div class="row">
     <div class="small-12 columns small-centered text-center" id="header" >
-        <h2>Carnegie Mellon All University Orchestra</h2>
+        <h4>Carnegie Mellon University</h4>
+        <h2>All University Orchestra</h2>
     </div> 
 </div>
 
 <div class="panel" id="welcome">
-    <h3 class="text-left" >Welcome</h3>
+    <div class ="row">
+        <h3 class="text-left" >Welcome</h3>
+    </div>
     <hr />
 
     <div class="row">
         <div style="padding: 0 0 0 20px; float:right;">
-            <iframe width="560" height="315" src="//www.youtube.com/embed/ej-jDpGtv7w" 
+            <iframe width="560" height="315" src="//www.youtube.com/watch?v=-6a-M2ZXmrA" 
             frameborder="0" allowfullscreen></iframe>
         </div>
 
@@ -35,4 +38,19 @@ show_in_nav: true
 </div>
 
 
+<div class="panel" id="quotes">
+    <div class="row text-left">
+        <p style="padding: 0 0 0 10px">
+            <i>It was great to be able to pick up violin again after high school. I loved my time in auo 
+            this semester.</i>
+        </p>
+        <p style="padding: 0 0 0 150px">
+            <i>I had a lot of fun, played good music, and made some friends.</i>
+        </p>
+        <p style="padding: 0 0 0 250px">
+            <i>I love AUO, as I would any chance to keep playing music. It's a really great 
+            organization.</i>
+        </p>
+    </div>
+</div>
 
