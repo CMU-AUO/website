@@ -29,7 +29,7 @@ show_in_nav: true
         <div class="small-12 large-10 columns officerinfo" >
             <h4>Jeffrey Donald Klefstad</h4>
             <h5>Music Director / Conductor</h5>
-            <div style="line-height:500%">
+            <div style="line-height:150%">
                 B.M. Vocal Performance, Concordia College<br>
                 M.M. Orchestral Conducting, James Madison University<br>
                 M.A. Music Education, Case Western Reserve University<br>
@@ -45,8 +45,10 @@ show_in_nav: true
         <div class="small-12 large-10 columns officerinfo" >
             <h4>Joel Goodloe</h4>
             <h5>Assistant Conductor</h5>
-            <p>Vocal Performance and Conducting, 2015</p>
-            <p><a href="mailto:joelgoodloe@gmail.com">joelgoodloe@gmail.com</a></p>
+            <div style="line-height:150%">
+                Vocal Performance and Conducting, 2015<br>
+                <a href="mailto:joelgoodloe@aol.com">joelgoodloe@aol.com</a>
+            </div>
         </div>
     </div>
 <hr />
@@ -57,7 +59,10 @@ show_in_nav: true
         <div class="small-12 large-10 columns officerinfo" >
             <h4>Thomson Yeh</h4>
             <h5>President</h5>
-            <p><a href="mailto:thomsonyeh@andrew.cmu.edu">thomsonyeh@andrew.cmu.edu</a></p>
+            <div style="line-height:150%">
+                Computer Science, 2016
+                <a href="mailto:thomsonyeh@andrew.cmu.edu">thomsonyeh@andrew.cmu.edu</a>
+            </div>
         </div>
     </div>
 
@@ -69,8 +74,10 @@ show_in_nav: true
         <div class="small-12 large-10 columns officerinfo" >
             <h4>Mark Aboff</h4>
             <h5>Vice President</h5>
-            <p>Mechanical Engineering, 2015</p>
-            <p><a href="mailto:maboff@andrew.cmu.edu">maboff@andrew.cmu.edu</a></p>
+            <div style="line-height:150%">
+                Mechanical Engineering, 2015<br>
+                <p><a href="mailto:maboff@andrew.cmu.edu">maboff@andrew.cmu.edu</a></p>
+            </div>
         </div>
     </div>
 
@@ -82,8 +89,10 @@ show_in_nav: true
         <div class="small-12 large-10 columns officerinfo" >
             <h4>Brendan Barwick</h4>
             <h5>Treasurer</h5>
-            <p>Computer Science, 2015</p>
-            <p><a href="mailto:bbarwick@andrew.cmu.edu">bbarwick@andrew.cmu.edu</a></p>
+            <div style="line-height:150%">
+                Computer Science, 2015<br>
+                <a href="mailto:bbarwick@andrew.cmu.edu">bbarwick@andrew.cmu.edu</a>
+            </div>
         </div>
     </div>
 
@@ -95,7 +104,10 @@ show_in_nav: true
         <div class="small-12 large-10 columns officerinfo" >
             <h4>Alexandra Cerny</h4>
             <h5>Secretary</h5>
-            <p><a href="mailto:acerny@andrew.cmu.edu">acerny@andrew.cmu.edu</a></p>
+            <div style="line-height:150%">
+                Chemical Engineering / Biomedical Engineering, 2017
+                <a href="mailto:acerny@andrew.cmu.edu">acerny@andrew.cmu.edu</a>
+            </div>
         </div>
     </div>
 
@@ -107,7 +119,10 @@ show_in_nav: true
         <div class="small-12 large-10 columns officerinfo" >
             <h4>Albina Kwak</h4>
             <h5>Publicity Chair</h5>
-            <p><a href="mailto:yaesunk@andrew.cmu.edu">yaesunk@andrew.cmu.edu</a></p>
+            <div style="line-height:150%">
+                Chemistry, 2017
+                <a href="mailto:yaesunk@andrew.cmu.edu">yaesunk@andrew.cmu.edu</a>
+            </div>
         </div>
     </div>
 
@@ -117,9 +132,12 @@ show_in_nav: true
 			<img src="/img/officers/nophoto.png" />
 		</div>
         <div class="small-12 large-10 columns officerinfo" >
-            <h4>Andrew Hunter</h4>
+            <h4>Andrew Hutner</h4>
             <h5>Fundraising Chair</h5>
-            <p><a href="mailto:ahunter@andrew.cmu.edu">ahunter@andrew.cmu.edu</a></p>
+            <div style="line-height:150%">
+                Mechanical Engineering, 2016
+                <a href="mailto:ahutner@andrew.cmu.edu">ahutner@andrew.cmu.edu</a>
+            </div>
         </div>
     </div>
 
@@ -131,8 +149,10 @@ show_in_nav: true
         <div class="small-12 large-10 columns officerinfo" >
             <h4>Lauren O'Neil</h4>
             <h5>Librarian</h5>
-            <p>Chemistry / Physics, 2015</p>
-            <p><a href="mailto:loneil@andrew.cmu.edu">loneil@andrew.cmu.edu</a></p>
+            <div style="line-height:150%">
+                Chemistry / Physics, 2015<br>
+                <a href="mailto:loneil@andrew.cmu.edu">loneil@andrew.cmu.edu</a>
+            </div>
         </div>
     </div>
 
@@ -144,8 +164,10 @@ show_in_nav: true
         <div class="small-12 large-10 columns officerinfo" >
             <h4>Laura Berry</h4>
             <h5>Librarian</h5>
-            <p>English, 2016</p>
-            <p><a href="mailto:lberry@andrew.cmu.edu">lberry@andrew.cmu.edu</a></p>
+            <div style="line-height:150%">
+                English, 2016<br>
+                <a href="mailto:lberry@andrew.cmu.edu">lberry@andrew.cmu.edu</a>
+            </div>
         </div>
     </div>
 
@@ -157,8 +179,10 @@ show_in_nav: true
         <div class="small-12 large-10 columns officerinfo" >
             <h4>Xavier Artache</h4>
             <h5>Webmaster</h5>
-            <p>Mechanical Engineering / Computer Science, 2014</p>
-            <p><a href="mailto:xka@andrew.cmu.edu">xka@andrew.cmu.edu</a></p>
+            <div style="line-height:150%">
+                Mechanical Engineering / Computer Science, 2016<br>
+                <a href="mailto:xka@andrew.cmu.edu">xka@andrew.cmu.edu</a>
+            </div>
         </div>
     </div>
 </div>

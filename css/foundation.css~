@@ -14,7 +14,7 @@ body {
   color: #464646;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -82,6 +82,24 @@ textarea {
 
 select {
   width: 100%; }
+
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 /* Grid HTML Classes */
 .row {
@@ -1061,7 +1079,8 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic",
+               sans-serif;
   font-weight: bold;
   font-style: normal;
   color: #464646;
@@ -2941,8 +2960,8 @@ label.error {
     background: #090909;
     color: white; }
   .top-bar-section ul li.active > a {
-    background: #e90909;
-    color: white; }
+    background: #090909;
+    color: red; }
   .top-bar-section .has-form {
     padding: 15px; }
   .top-bar-section .has-dropdown {

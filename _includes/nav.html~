@@ -2,9 +2,10 @@
   <ul class="title-area">
     <li class="name">
       <h1>
-        <a href="/">
+        <div><img src="img/auologosmall.png" hspace=5 vspace=5 align=left /></div>
+        <div><a href="/">
           AUO - {{page.title}}
-        </a>
+        </a></div>
       </h1>
     </li>
     <li class="toggle-topbar menu-icon"><a href="#"><span>nav</span></a></li>
@@ -15,7 +16,7 @@
       <li class="divider"></li>
       
 
-      {% if page.url == "index.html" %}
+      {% if page.url == "/index.html" %}
           <li class="active"><a href="/" class="active">Home</a></li>
       {% else %}
           <li><a href="/">Home</a></li>

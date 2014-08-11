@@ -10,6 +10,24 @@ show_in_nav: true
     </div> 
 </div>
 
+
+<div class="panel" id="support">
+    <div class="row">
+
+        <div style="padding: 0 0 0 20px; float:right;">
+            <img src="" />
+        </div>
+
+        <div style="padding: 10px 0 0 0">
+            <p>
+            <h5><u>Upcoming Events</u></h5>
+            <h6>Coming Soon!</h6>
+            </p>
+        </div>
+    </div>
+</div>
+
+
 <div class="panel" id="poster1" >
     <center>
         <a href="/files/poster-concerto-aria-2014.pdf">
@@ -70,7 +88,7 @@ show_in_nav: true
 
     <div class="large-6 small-12 columns text-center" >
         <div class="panel" id="auomembersright" >
-            <h5>Flue</h5>
+            <h5>Flute</h5>
             <p class="text-center" >
                 <!-- insert names -->
             </p>
