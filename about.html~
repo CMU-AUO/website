@@ -2,6 +2,7 @@
 layout: thin
 title: "About"
 show_in_nav: true
+permalink: about
 ---
 
 <div class="row">
@@ -28,10 +29,11 @@ show_in_nav: true
     </p>
 
     <p>
-    If you are interested in joining AUO, come to our first rehearsal of the year, Sunday, September 7th
-    from 7:30 - 10:30 p.m. , or email us at <a href="mailto:auo@andrew.cmu.edu">auo@andrew.cmu.edu</a>
-    if you have any questions. Make sure to bring your instrument as well.  Also, make sure to read the
-    syllabus below and let us know you exist by filling out the <a href="https://docs.google.com/a/andrew.cmu.edu/spreadsheet/viewform?formkey=dE1jN2x5dDBLVjFsUzBPQjU4UXZoU2c6MQ">Form of Existence</a>.
+    If you are interested in joining the AUO, come to our first rehearsal which will be held Sunday, 
+    September 7th from 7:30 - 10:30 p.m. in the UC Connan room and bring your instrument.  If you have 
+    any other questions, please email us at <a href="mailto:auo@andrew.cmu.edu">auo@andrew.cmu.edu</a> . 
+    In addition, please take a few moments to fill out the <a href="https://docs.google.com/a/andrew.cmu.edu/spreadsheet/viewform?formkey=dE1jN2x5dDBLVjFsUzBPQjU4UXZoU2c6MQ">Form of Existence</a> 
+    and read the syllabus to become acquainted with some of our policies.
     </p>
 
     <p>
@@ -40,7 +42,7 @@ show_in_nav: true
     </p>
 
     <hr />
-    <h5 class="text-center" ><a href="files/syllabus1314.pdf">Syllabus</a></h5>
+    <h5 class="text-center" ><a href="files/2014-2015 Syllabus.docx">2014-2015 Syllabus</a></h5>
 </div>
 
 
@@ -81,8 +83,9 @@ show_in_nav: true
     </p>
 
     <p>
-    <!-- The ensemble meets once per week (DATE and TIME TBA) and is led by members of the ensemble. For more 
-    information, please email (DANNY) at (EMAIL). -->
+    <!-- The ensemble meets once per week (DATE and TIME TBA) and is led by members of the ensemble.-->
+    For more information, please email Ellen Reifler at <a href="mailto:ereifler@andrew.cmu.edu">
+    ereifler@andrew.cmu.edu</a> .
     </p>
 
 </div>

@@ -1,0 +1,47 @@
+---
+layout: thin
+title: "Auditions"
+show_in_nav: false
+---
+
+<div class="row">
+    <div class="small-12 columns small-centered text-center" id="header" >
+        <h1></h1>
+    </div> 
+</div>
+
+
+<div class="panel" id="intro" >
+    <p><h4><u>Fall 2014 Audition Materials</u></h4></p>
+    <p></p>
+
+    <p><h6><a href="files/Violin I Excerpts-Fall 2014.docx">Violin I</a></h6></p>
+
+    <p><h6><a href="files/Violin II Excerpts-Fall 2014.docx">Violin II</a></h6></p>
+
+    <p><h6><a href="files/Viola Excerpts-Fall 2014.docx">Viola</a></h6></p>
+
+    <p><h6><a href="files/Cello Excerpts-Fall 2014.docx">Cello</a></h6></p>
+
+    <p><h6><a href="files/Bass Excerpts-Fall 2014.docx">Bass</a></h6></p>
+
+    <p><h6><a href="files/FlutePicc Excerpts-Fall 2014.docx">Flute / Piccolo</a></h6></p>
+
+    <p><h6><a href="files/Oboe Excerpts-Fall 2014.docx">Oboe</a></h6></p>
+
+    <p><h6><a href="files/Clarinet Excerpts-Fall 2014.docx">Clarinet</a></h6></p>
+
+    <p><h6><a href="files/Bassoon Excerpts-Fall 2014.docx">Bassoon</a></h6></p>
+
+    <p><h6><a href="files/Horn Excerpts-Fall 2014.docx">Horn</a></h6></p>
+
+    <p><h6><a href="files/Trumpet Excerpts-Fall 2014.docx">Trumpet</a></h6></p>
+
+    <p><h6><a href="files/Trombone Excerpts-Fall 2014.docx">Trombone</a></h6></p>
+</div>
+
+
+
+
+
+
