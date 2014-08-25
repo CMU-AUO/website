@@ -59,7 +59,7 @@ show_in_nav: true
             </p>
         </div>
 
-        <div class="large-8 hide-for-small columns">
+        <div class="large-8 small-3 columns">
             <iframe width="560" height="315" src="//www.youtube.com/embed/-6a-M2ZXmrA"
             frameborder="0" allowfullscreen></iframe>
         </div>
