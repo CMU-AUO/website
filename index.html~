@@ -59,7 +59,7 @@ show_in_nav: true
             </p>
         </div>
 
-        <div class="large-8 columns">
+        <div class="large-8 hide-for-small columns">
             <iframe width="560" height="315" src="//www.youtube.com/embed/-6a-M2ZXmrA"
             frameborder="0" allowfullscreen></iframe>
         </div>
@@ -68,7 +68,7 @@ show_in_nav: true
 
 
 <div class="panel" id="quotes">
-    <div class="row text-left">
+    <div class="row hide-for-small text-left">
         <p style="padding: 0 0 0 10px">
             <i>It was great to be able to pick up violin again after high school. I loved my time in auo 
             this semester.</i>
