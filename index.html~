@@ -10,6 +10,7 @@ show_in_nav: true
     </div> 
 </div>
 
+<!--
 <div class="panel" id="welcome">
     <div class ="row">
         <h3 class="text-left" >Welcome</h3>
@@ -35,12 +36,16 @@ show_in_nav: true
             </p>
         </div>
     </div>
-</div>
+</div> -->
 
 
 <div class="panel" id="welcome">
-    <div class="row">
+    <div class ="row">
+        <h3 class="text-left" >Welcome</h3>
+    </div>
+    <hr />
 
+    <div class="row">
         <div class="large-4 columns">
             <p class="text-left" >
             The Carnegie Mellon All University Orchestra is an ensemble composed of CMU undergrads,
@@ -58,7 +63,6 @@ show_in_nav: true
             <iframe width="560" height="315" src="//www.youtube.com/embed/-6a-M2ZXmrA"
             frameborder="0" allowfullscreen></iframe>
         </div>
-
     </div>
 </div>
 
