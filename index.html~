@@ -10,34 +10,6 @@ show_in_nav: true
     </div> 
 </div>
 
-<!--
-<div class="panel" id="welcome">
-    <div class ="row">
-        <h3 class="text-left" >Welcome</h3>
-    </div>
-    <hr />
-
-    <div class="row">
-        <div style="padding: 0 0 0 20px; float:right;">
-            <iframe width="560" height="315" src="//www.youtube.com/embed/-6a-M2ZXmrA"
-            frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div style="padding: 10px 0 0 0">
-            <p class="text-left" >
-            The Carnegie Mellon All University Orchestra is an ensemble composed of CMU undergrads,
-            graduate students, staff, and faculty who love to make music. There are no auditions or
-            try-outs - everyone is welcome!
-            </p>
-            <p class="text-left" >
-            The AUO puts on one concert per semester, available free of charge to members of the CMU
-            community and the public. See our <a href="/concerts.html">Concerts</a> page for this
-            year's schedule and recordings of some of our past concerts.
-            </p>
-        </div>
-    </div>
-</div> -->
-
 
 <div class="panel" id="welcome">
     <div class ="row">
@@ -59,7 +31,7 @@ show_in_nav: true
             </p>
         </div>
 
-        <div class="large-8 small-3 columns">
+        <div class="large-8 hide-for-small columns">
             <iframe width="560" height="315" src="//www.youtube.com/embed/-6a-M2ZXmrA"
             frameborder="0" allowfullscreen></iframe>
         </div>
@@ -70,7 +42,7 @@ show_in_nav: true
 <div class="panel" id="quotes">
     <div class="row hide-for-small text-left">
         <p style="padding: 0 0 0 10px">
-            <i>It was great to be able to pick up violin again after high school. I loved my time in auo 
+            <i>It was great to be able to pick up violin again after high school. I loved my time in AUO 
             this semester.</i>
         </p>
         <p style="padding: 0 0 0 150px">
@@ -82,4 +54,45 @@ show_in_nav: true
         </p>
     </div>
 </div>
+
+
+<div class="panel" id="blog">
+    <div class ="row">
+        <h3 class="text-left" >Here's What's New</h3>
+    </div>
+    <hr />
+
+    <!-- This loops through the paginated posts -->
+    {% for post in paginator.posts %}
+        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+        <p class="author">
+            <span class="date">{{ post.date | date_to_long_string}}</span>
+        </p>
+        <div class="content">
+            {{ post.content }}
+        </div>
+    {% endfor %}
+
+    <!-- Pagination links -->
+    <div class="pagination">
+        {% if paginator.previous_page %}
+            <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
+        {% else %}
+            <span class="previous">Previous</span>
+        {% endif %}
+            <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+        {% if paginator.next_page %}
+            <a href="/page{{ paginator.next_page }}" class="next">Next</a>
+        {% else %}
+            <span class="next ">Next</span>
+        {% endif %}
+    </div>
+</div>
+
+
+
+
+
+
+
 
