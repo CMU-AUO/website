@@ -46,29 +46,78 @@ show_in_nav: true
 
     <div class="large-6 small-12 columns text-center" >
         <div class="panel" id="auomembersleft" >
-            <h5>Violin</h5>
+            <h5>Violin I</h5>
             <p class="text-center" >
                 <!-- insert names -->
+Jennifer Huang<br>
+Rei Ukita<br>
+Jad Hilal+<br>
+Lauren O’Neil<br>
+Elyce Milligan<br>
+Nolan Ardolino<br>
+Xinya Li<br>
+Keven Chionh^<br>
+Lul Beresford<br>
+Haruka Fukafaw<br>
+Aya Sugino<br>
+            </p>
+            <hr />
+
+            <h5>Violin II</h5>
+            <p class="text-center" >
+                <!-- insert names -->
+Mark Aboff^<br>
+James Wissman<br>
+Jennifer Chou<br>
+Andrew Afable<br>
+Radhika Dalal<br>
+Jocelyn Huang<br>
+Brigitte Quirk<br>
+Jonathan Burns<br>
+Danielle Quan<br>
+Yuzuko Nakamura<br>
+Leila Hilal*<br>
             </p>
             <hr />
 
             <h5>Viola</h5>
             <p class="text-center" >
                 <!-- insert names -->
+Alexandra Cerny^<br>
+Zachary Greenberg<br>
+Can Bostanci<br>
+Sara Adkins<br>
+Abby Cho<br>
+Mark Saporta<br>
+Paul Rogozenski<br>
+Allie Wood<br>
+Kevin Lin<br>
+Katherine Poggensee<br>
+Lauren Montgomery<br>
+Elon Bauer<br>
+Olivia Hilal^<br>
+David Vinson^<br>
             </p>
             <hr />
 
             <h5>Cello</h5>
             <p class="text-center" >
                 <!-- insert names -->
+Nathaniel Fruchter<br>
+Kelsey Dolhon<br>
+Jay Achuff^<br>
+Rebeka Almasi<br>
+Meredith Schmehl^<br>
             </p>
             <hr />
 
             <h5>Bass</h5>
             <p class="text-center" >
                 <!-- insert names -->
+Ben Burgess*<br>
+Christopher Smith<br>
+Laura Berry<br>
             </p>
-            <hr />
         </div>
     </div>
 
@@ -79,56 +128,99 @@ show_in_nav: true
             <h5>Flute</h5>
             <p class="text-center" >
                 <!-- insert names -->
+Stephanie O’Neil<br>
+Christine Zhang<br>
+Lindsay Schnell<br>
+Albina Kwak*<br>
+Ashley Wong<br>
+Danny Zhu<br>
+Elizabeth Zeng<br>
+Yusuke Okazaki<br>
             </p>
             <hr />
 
             <h5>Oboe</h5>
             <p class="text-center" >
                 <!-- insert names -->
+Thomson Yeh<br>
+Maverick Chen*<br>
+Tianbo Jiang^<br>
+Josh Brown<br>
             </p>
             <hr />
 
             <h5>Clarinet</h5>
             <p class="text-center" >
                 <!-- insert names -->
+David Simon^<br>
+Eric Lee<br>
+David Lindenbaum<br>
+Maria Corsaro<br>
+Kate Foust<br>
+Zachary Singer<br>
+Jerzy Wieczarek^<br>
             </p>
             <hr />
 
             <h5>Bassoon</h5>
             <p class="text-center" >
                 <!-- insert names -->
+Laura Anderson-Lehman*<br>
+Ben Avery<br>
             </p>
             <hr />
 
             <h5>Horn</h5>
             <p class="text-center" >
                 <!-- insert names -->
+Raymand Joseph Paetz<br>
+Brandon Price<br>
+Christian Pederson<br>
+Megan Strain*<br>
+Kenny Barry<br>
+Bridget McCoy<br>
+Kristy Gardner<br>
             </p>
             <hr />
 
             <h5>Trumpet</h5>
             <p class="text-center" >
                 <!-- insert names -->
+Caroline Morin<br>
+Faith<br>
+Daniel Graf<br>
+Kyle Robinson<br>
+Joe Garvey^<br>
+Thatcher Montgomery<br>
+Tom Shen^<br>
             </p>
             <hr />
 
             <h5>Trombone</h5>
             <p class="text-center" >
                 <!-- insert names -->
+Michael Spoerl<br>
+Brendan Barwisk<br>
+Jake Bahr*<br>
+Tom Vielott<br>
+Chris Jones<br>
+Emily Forney<br>
             </p>
             <hr />
 
+            <!--
             <h5>Tuba</h5>
             <p class="text-center" >
-                <!-- insert names -->
+                insert names
             </p>
             <hr />
+            -->
 
             <h5>Timpani/Percussion</h5>
             <p class="text-center" >
                 <!-- insert names -->
+Emily Carvalho<br>
             </p>
-            <hr />
         </div>
     </div>
 
@@ -143,29 +235,44 @@ show_in_nav: true
 
 
 <div class="panel text-center" id="stmembers" >
-    <h5>Violin</h5>
+    <h5>Violin I</h5>
     <p class="text-center" >
         <!-- insert names -->
+Elyce Milligan*<br>
+Lauren O’Neil<br>
+    </p>
+    <hr />
+
+    <h5>Violin II</h5>
+    <p class="text-center" >
+        <!-- insert names -->
+Jad Hilal*<br>
     </p>
     <hr />
 
     <h5>Viola</h5>
     <p class="text-center" >
         <!-- insert names -->
+Alex Cerny^<br>
+David Vinson^<br>
     </p>
     <hr />
 
     <h5>Cello</h5>
     <p class="text-center" >
         <!-- insert names -->
+Nathaniel Fruchter<br>
+Meredith Schmehl*<br>
+Kelsey Dolhon<br>
     </p>
     <hr />
 
+    <!--
     <h5>Bass</h5>
     <p class="text-center" >
-        <!-- insert names -->
+        insert names
     </p>
-    <hr />
+    -->
 </div>
 
 
