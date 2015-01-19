@@ -46,33 +46,31 @@ show_in_nav: true
     <hr />
 
     <div class ="row">
-        <!-- This loops through the paginated posts -->
-        {% for post in paginator.posts %}
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p class="author">
-                <span class="date">{{ post.date | date_to_long_string}}</span>
-            </p>
-            <div class="content">
-                {{ post.content }}
-            </div>
-        {% endfor %}
+       {% if paginator.total_pages > 1 %}
+       <div class="pagination">
+           {% if paginator.previous_page %}
+               <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;  Prev</a>
+           {% else %}
+               <span>&laquo; Prev</span>
+           {% endif %}
 
-        <!-- Pagination links -->
-        <div class="pagination">
-            {% if paginator.previous_page %}
-                <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
-            {% else %}
-                <span class="previous">Previous</span>
-            {% endif %}
-                <span class="page_number ">
-                    Page: {{ paginator.page }} of {{ paginator.total_pages }}
-                </span>
-            {% if paginator.next_page %}
-                <a href="/page{{ paginator.next_page }}" class="next">Next</a>
-            {% else %}
-                <span class="next ">Next</span>
-            {% endif %}
-        </div>
+           {% for page in (1..paginator.total_pages) %}
+               {% if page == paginator.page %}
+                   <em>{{ page }}</em>
+               {% elsif page == 1 %}
+                   <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+               {% else %}
+                   <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+               {% endif %}
+           {% endfor %}
+
+           {% if paginator.next_page %}
+               <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+           {% else %}
+               <span>Next &raquo;</span>
+           {% endif %}
+       </div>
+       {% endif %}
     </div>
 </div>
 
@@ -80,15 +78,15 @@ show_in_nav: true
 <div class="panel" id="quotes">
     <div class="row hide-for-small text-left">
         <p style="padding: 0 0 0 10px">
-            <i>It was great to be able to pick up violin again after high school. I loved my time in AUO 
-            this semester.</i>
+            <i>"It was great to be able to pick up violin again after high school. I loved my time in  
+            AUO this semester."</i>
         </p>
         <p style="padding: 0 0 0 150px">
-            <i>I had a lot of fun, played good music, and made some friends.</i>
+            <i>"I had a lot of fun, played good music, and made some friends."</i>
         </p>
         <p style="padding: 0 0 0 250px">
-            <i>I love AUO, as I would any chance to keep playing music. It's a really great 
-            organization.</i>
+            <i>"I love AUO, as I would any chance to keep playing music. It's a really great 
+            organization."</i>
         </p>
     </div>
 </div>
