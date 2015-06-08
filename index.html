@@ -32,7 +32,7 @@ show_in_nav: true
         </div>
 
         <div class="large-8 hide-for-small columns">
-            <iframe width="560" height="315" src="//www.youtube.com/embed/-6a-M2ZXmrA"
+            <iframe width="560" height="315" src="//www.youtube.com/embed/mHzH7LEgqoc"
             frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
@@ -48,13 +48,15 @@ show_in_nav: true
     <div class ="row">
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <p class="author">
-    <span class="date">{{ post.date }}</span>
-  </p>
-  <div class="content">
-    {{ post.content }}
-  </div>
+	<div class="post">
+	  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+	  <p class="author">
+	    <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+	  </p>
+	  <div class="content">
+	    {{ post.content }}
+	  </div>
+	</div>	
 {% endfor %}
 
 <!-- Pagination links -->
@@ -90,12 +92,4 @@ show_in_nav: true
         </p>
     </div>
 </div>
-
-
-
-
-
-
-
-
 
