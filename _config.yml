@@ -1,0 +1,7 @@
+name: Your New Jekyll Site
+markdown: redcarpet
+highlighter: true
+paginate: 3
+gems:
+  - jekyll-gallery-generator
+
