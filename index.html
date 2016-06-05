@@ -1,9 +1,97 @@
----
-layout: bgimage
-title: Home
-show_in_nav: true
----
-<div class="row">
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Carnegie Mellon All-University Orchestra</title>
+
+  
+  <link rel="stylesheet" href="/css/foundation.css">
+  <link rel="stylesheet" href="/css/app.css">
+  
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+
+</head>
+<body>
+
+<!-- Navigation -->
+    <nav class="top-bar">
+  <ul class="title-area">
+    <li class="name">
+      <h1>
+        <img src="/img/auologosmall.png" hspace=5 vspace=5 align=left />
+        <!--<a href="/">
+          AUO - Home
+        </a>-->
+      </h1>
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#"><span>nav</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <ul class="right">
+      <li class="divider"></li>
+      
+
+      
+          <li class="active"><a href="/" class="active">Home</a></li>
+      
+          <li class="divider"></li>
+
+
+      
+          <li><a href="/about.html">About</a></li>
+      
+          <li class="divider"></li>
+
+
+      
+          <li><a href="/concerts.html">Concerts</a></li>
+      
+          <li class="divider"></li>
+
+
+      
+          <li><a href="/rehearsals.html">Rehearsals</a></li>
+      
+          <li class="divider"></li>
+
+
+      
+          <li><a href="/media.html">Media</a></li>
+      
+          <li class="divider"></li>
+
+      
+          <li><a href="/concertoandaria.html">Concerto & Aria Competition</a></li>
+      
+          <li class="divider"></li>
+
+
+      
+          <li><a href="/contact.html">Contact</a></li>
+      
+          <li class="divider"></li>
+
+
+      
+          <li><a href="/support.html">Support</a></li>
+      
+          <li class="divider"></li>
+
+
+    </ul>
+  </section>
+</nav>
+
+<!-- End Top Bar -->
+
+
+<div class="banner">
+    <div class="row">
     <div class="small-12 columns small-centered text-center" id="header" >
         <h4>Carnegie Mellon University</h4>
         <h2>All University Orchestra</h2>
@@ -47,31 +135,55 @@ show_in_nav: true
 
     <div class ="row">
 <!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
+
 	<div class="post">
-	  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+	  <h1><a href="/2016/04/03/concert.html">AUO Spring 2016 Concert</a></h1>
 	  <p class="author">
-	    <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+	    <span class="date">April 03, 2016</span>
 	  </p>
 	  <div class="content">
-	    {{ post.content }}
+	    <p>Can&#39;t make it to our Spring concert? No problem! <a href="https://www.youtube.com/channel/UCM-iFhoRH2YTh_eHhVXcHYA">Click here to watch a livestream of the concert starting at 4:30 PM Eastern.</a></p>
+
+<p>You can also check out <a href="/img/program-s16.pdf">a PDF of our concert program.</a></p>
+
 	  </div>
 	</div>	
-{% endfor %}
+
+	<div class="post">
+	  <h1><a href="/2016/02/10/competition-winners.html">AUO Concerto Competition Winners</a></h1>
+	  <p class="author">
+	    <span class="date">February 10, 2016</span>
+	  </p>
+	  <div class="content">
+	    <p>We are pleased to announce that Taisuke Yasuda (violin) and Irene Sun (violin) have been selected as winners of the 2nd AUO Concerto &amp; Aria Competition.
+They have been offered you the opportunity to solo with the AUO during the 2016-2017 season. Congratulations to them both!</p>
+
+	  </div>
+	</div>	
+
+	<div class="post">
+	  <h1><a href="/2015/11/10/pso-outing.html">AUO attends PSO's "Rite of Spring"</a></h1>
+	  <p class="author">
+	    <span class="date">November 10, 2015</span>
+	  </p>
+	  <div class="content">
+	    <p>Members of the AUO attended the PSO performance of Stravinsky&#39;s &quot;Rite of Spring&quot; in October.</p>
+
+<p><img src="/img/f15-pso-outing.jpg" width="1024" /></p>
+
+	  </div>
+	</div>	
+
 
 <!-- Pagination links -->
 <div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
+  
     <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
+  
+  <span class="page_number ">Page: 1 of 4</span>
+  
+    <a href="/page2" class="next">Next</a>
+  
 </div>
     </div>
 </div>
@@ -93,3 +205,37 @@ show_in_nav: true
     </div>
 </div>
 
+
+</div>
+
+<!-- Footer -->
+<footer class="row" >
+<div class="row small-12 large-12">
+    <div class="panel" >
+<div class="row">
+    <div class="large-6 small-12 large-left text-center columns" id="copy" >
+        &copy; Copyright CMU All-University Orchestra. Funded in part by your student activities fee.
+    </div>
+    <div class="large-6 small-12 large-left text-center columns" id="contact" >
+        Questions? Comments? Email <a href="mailto:auo@andrew.cmu.edu">auo@andrew.cmu.edu</a>
+    </div>
+</div>
+</div>
+
+</div>
+</footer>
+<!-- End Footer -->
+
+<script>
+    document.write('<script src=/js/vendor/' +
+            ('__proto__' in {} ? 'zepto' : 'jquery') +
+            '.js><\/script>')
+</script>
+<script src="/js/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+</script>
+
+
+</body>
+</html>
