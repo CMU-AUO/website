@@ -1,6 +1,6 @@
 name: Your New Jekyll Site
 markdown: redcarpet
-highlighter: true
+highlighter: rouge
 paginate: 3
 gems:
   - jekyll-gallery-generator
