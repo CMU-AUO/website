@@ -2827,11 +2827,11 @@ label.error {
 
 .top-bar {
   overflow: hidden;
-  height: 45px;
-  line-height: 45px;
+  height: 60px;
+  line-height: 60px;
   position: relative;
   background: #111111;
-  margin-bottom: 1.875em; }
+  margin-bottom: 1em; }
   .top-bar ul {
     margin-bottom: 0;
     list-style: none; }
@@ -2850,12 +2850,12 @@ label.error {
     position: relative;
     margin: 0; }
   .top-bar .name {
-    height: 45px;
+    height: 60px;
     margin: 0;
     font-size: 16; }
     .top-bar .name h1 {
-      line-height: 45px;
-      font-size: 1.0625em;
+      line-height: 60px;
+      font-size: 1.5em;
       margin: 0; }
       .top-bar .name h1 a {
         font-weight: bold;
@@ -2870,13 +2870,13 @@ label.error {
     .top-bar .toggle-topbar a {
       color: white;
       text-transform: uppercase;
-      font-size: 0.8125em;
+      font-size: .8125em;
       font-weight: bold;
       position: relative;
       display: block;
       padding: 0 15px;
-      height: 45px;
-      line-height: 45px; }
+      height: 60px;
+      line-height: 60px; }
     .top-bar .toggle-topbar.menu-icon {
       right: 15px;
       top: 50%;
@@ -2884,9 +2884,9 @@ label.error {
       padding-left: 40px; }
       .top-bar .toggle-topbar.menu-icon a {
         text-indent: -48px;
-        width: 34px;
-        height: 34px;
-        line-height: 33px;
+        width: 50px;
+        height: 54px;
+        line-height: 60px;
         padding: 0;
         color: white; }
         .top-bar .toggle-topbar.menu-icon a span {
@@ -2917,7 +2917,7 @@ label.error {
   transition: left 300ms ease-out; }
   .top-bar-section ul {
     width: 100%;
-    height: auto;
+    height: 30px;
     display: block;
     background: #222222;
     font-size: 16;
@@ -3000,7 +3000,7 @@ label.error {
         margin-bottom: 0; }
         .top-bar-section .dropdown li.title h5 a {
           color: white;
-          line-height: 22.5px;
+          line-height: 30px;
           display: block; }
     .top-bar-section .dropdown label {
       padding: 8px 15px 2px;
@@ -3064,7 +3064,7 @@ label.error {
           display: none; }
     .top-bar-section li a:not(.button) {
       padding: 0 15px;
-      line-height: 45px;
+      line-height: 60px;
       background: #111111; }
       .top-bar-section li a:not(.button).hover {
         background: black; }
@@ -3114,12 +3114,12 @@ label.error {
       border-right: solid 1px #2b2b2b;
       border-left: solid 1px black;
       clear: none;
-      height: 45px;
+      height: 60px;
       width: 0px; }
     .top-bar-section .has-form {
       background: #111111;
       padding: 0 15px;
-      height: 45px; }
+      height: 60px; }
     .top-bar-section ul.right li .dropdown {
       left: auto;
       right: 0; }
