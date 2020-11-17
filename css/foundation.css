@@ -2827,7 +2827,7 @@ label.error {
 
 .top-bar {
   overflow: hidden;
-  height: 480px;
+  height: 60px;
   line-height: 60px;
   position: relative;
   background: #111111;
@@ -2898,7 +2898,7 @@ label.error {
           -webkit-box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
           box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white; }
   .top-bar.expanded {
-    height: auto;
+    height: 480px;
     background: transparent; }
     .top-bar.expanded .title-area {
       background: #111111; }
