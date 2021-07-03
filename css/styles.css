@@ -599,13 +599,10 @@ progress {
 }
 
 /* Hide the images by default */
-.concerts_Slides {
+.slides1 {
   display: none;
 }
-.s15_Slides {
-  display: none;
-}
-.f15_Slides {
+.slides2 {
   display: none;
 }
 
