@@ -121,7 +121,7 @@ function dropdownClick() {
 
   var slideIndex = [1,1,1];
   /* Class the members of each slideshow group with different CSS classes */
-  var slideId = ["s15_Slides", "f15_Slides", "concerts_Slides"]
+  var slideId = ["s15_Slides", "f15_Slides", "concerts_Slides"];
   showSlides(1, 0);
   showSlides(1, 1);
   showSLides(1, 2);
