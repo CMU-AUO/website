@@ -11146,7 +11146,7 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #homeNav .navbar-brand img {
-    height: 2rem;
+    height: 4rem;
     transition: height 0.3s ease-in-out;
   }
   #homeNav.navbar-shrink {
@@ -11159,7 +11159,7 @@ p {
   }
   #homeNav.navbar-shrink .navbar-brand svg,
 #homeNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
+    height: 3rem;
   }
   #homeNav .navbar-nav .nav-item {
     margin-right: 1rem;
@@ -11214,7 +11214,7 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 4rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -11227,7 +11227,7 @@ p {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
+    height: 3rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
