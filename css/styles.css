@@ -725,6 +725,46 @@ progress {
   height: 100%;
 }
 
+.container-navbar,
+.container-navbar-fluid,
+.container-navbar-xxl,
+.container-navbar-xl,
+.container-navbar-lg,
+.container-navbar-md,
+.container-navbar-sm {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container-navbar-sm, .container-navbar {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-navbar-md, .container-navbar-sm, .container-navbar {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-navbar-lg, .container-navbar-md, .container-navbar-sm, .container-navbar {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-navbar-xl, .container-navbar-lg, .container-navbar-md, .container-navbar-sm, .container-navbar {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-navbar-xxl, .container-navbar-xl, .container-navbar-lg, .container-navbar-md, .container-navbar-sm, .container-navbar {
+    max-width: 1320px;
+  }
+}
+
 .container,
 .container-fluid,
 .container-xxl,
@@ -751,17 +791,17 @@ progress {
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: 720px;
   }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: 720px;
   }
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
+    max-width: 720px;
   }
 }
 .row {
@@ -4135,6 +4175,13 @@ textarea.form-control-lg {
   padding-top: 0rem;
   padding-bottom: 0rem;
 }
+.navbar > .container-navbar,
+.navbar > .container-navbar-fluid,
+.navbar > .container-navbar-sm,
+.navbar > .container-navbar-md,
+.navbar > .container-navbar-lg,
+.navbar > .container-navbar-xl,
+.navbar > .container-navbar-xxl,
 .navbar > .container,
 .navbar > .container-fluid,
 .navbar > .container-sm,
