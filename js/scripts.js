@@ -124,7 +124,7 @@ function dropdownClick() {
   var slideId = ["s15_Slides", "f15_Slides", "concerts_Slides"]
   showSlides(1, 0);
   showSlides(1, 1);
-  showSLides(1, 2)
+  showSLides(1, 2);
   
   function plusSlides(n, no) {
     showSlides(slideIndex[no] += n, no);
