@@ -120,8 +120,6 @@ function dropdownClick() {
   }
 
 // Alert for the release date of audition materials
-window.addEventListener('DOMContentLoaded', () => {
-    if (window.location.pathname.includes('audition')) {
-        alert("Fall 2024 Audition materials will be put up sometime in mid June 2024");
-    }
-})
+// window.addEventListener('DOMContentLoaded', () => {
+   
+// })
