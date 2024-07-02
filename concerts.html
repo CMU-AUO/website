@@ -47,11 +47,20 @@ xmlns:fb="http://ogp.me/ns/fb#" lang="en">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">2024 - 2025 Season</h2>
                 </div>
-                <br><br>
+                <div class="posters-container">
                 <!-- <p>Coming Soon</p> -->
-                <img src="/assets/concert_posters/AUO_Fall24_poster.jpeg" width="100%" alt="..." />
-                <br><br>
-                <img src="/assets/concert_posters/AUO_Spring25_Poster.jpg" width="100%" alt="..." />
+                    <img class="poster-image" id="fallImg" src="/assets/concert_posters/AUO_Fall24_poster.jpeg" alt="Fall Poster" />
+                    <img class="poster-image" id="springImg" src="/assets/concert_posters/AUO_Spring25_Poster.jpg"  alt="Spring Poster" />
+                </div>
+                <!-- The Modal -->
+                <div id="posterModal" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>      
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="modalImg">       
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption"></div>
+                </div>
             </div>
         </section>
         <section class="page-section bg-light" id="members">

@@ -16,6 +16,7 @@ xmlns:fb="http://ogp.me/ns/fb#" lang="en">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="/css/styles.css" rel="stylesheet" />
+        
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -42,15 +43,18 @@ xmlns:fb="http://ogp.me/ns/fb#" lang="en">
         </nav>
         <br><br><br><br>
         <!-- Rehearsals-->
-        <section class="page-section" id="symphony">
-            <div class="container">
+        <!-- use Styled Calendar for embedding google calendar -->
+        <!-- https://app.styledcalendar.com/calendars/EAdZGPsE33ngZqvq4ng2/edit -->
+        <section class="page-section " id="symphony">
+            <div class="container text-center">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">AUO Symphony</h2>
                 </div>
                 <div class="text-justify">
                     <p class="text-muted">The AUO Symphony meets every Sunday from 6:00 - 8:30pm in the Studio Theater located in the Cohen University Center. Sectionals are held after rehearsals and are announced the week leading up to rehearsal.</p>
                 </div>
-                <!-- <img src="/assets/rehearsal_schedules/AUO_S24_Schedule.png" width="100%" alt="..." /> -->
+                <!-- <iframe src="https://embed.styledcalendar.com/#EAdZGPsE33ngZqvq4ng2" title="Styled Calendar" class="styled-calendar-container" style="width: 96%; border: none;" data-cy="calendar-embed-iframe"></iframe> -->
+                <iframe src="https://embed.styledcalendar.com/#Ax11Td4l9RmvobvFRkuQ" title="Styled Calendar" class="styled-calendar-container" style="width: 96%; border: none;" data-cy="calendar-embed-iframe"></iframe>
             </div>
         </section>
         <section class="page-section bg-light" id="st-fl">
@@ -61,20 +65,11 @@ xmlns:fb="http://ogp.me/ns/fb#" lang="en">
                 <div class="text-justify">
                     <p class="text-muted">The AUO Chamber Orchestra meets every Sunday in the CUC Studio Theater between 8:30-10:00pm.</p>
                 </div>
+                
                 <!-- <img src="/assets/rehearsal_schedules/AUO_Chamber_S24_Schedule.png" width="100%" alt="..." /> -->
             </div>
         </section>
-        <section class="page-section">
-            <div class="container">
-                <div class="text-center">
-                    <!-- <h2 class="section-heading text-uppercase">AUO Symphony Sectionals</h2> -->
-                </div>
-                <div class="text-justify">
-                    <p class="text-muted"></p>
-                </div>
-                <!-- <img src="/assets/rehearsal_schedules/AUO_S24_Sectional_Schedule.png" width="100%" alt="..." /> -->
-            </div>
-        </section>
+
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container-navbar">
@@ -96,6 +91,8 @@ xmlns:fb="http://ogp.me/ns/fb#" lang="en">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!-- JS for calendar embed from Styled Calendar -->
+        <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
