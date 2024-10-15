@@ -43,7 +43,7 @@ def get_parsed_data():
                 additional_instrument = (name[first_delimiter+1:end_idx]).strip()
                 additional_names.append(name[:first_delimiter])
             elif (pd.notnull(name) and name.lower() != "same as above" and 
-                name.lower()[:3] != "tbd" ): 
+                  name.lower() != "vacant" and name.lower()[:3] != "tbd" ): 
                 first_delimeter = find_delimiter(name)
                 name_wo_delimeter = name
                 if first_delimeter != -1:
@@ -55,48 +55,58 @@ def get_parsed_data():
     
     percussion_instruments = {'tambourine','triangle','castanets', 'triangle', 
                               'bass drum', 'crash cymbals', 'timpani', 'glock', 
-                              'snare drum', 'tri/tamb/cymbal'}
-
-    # Read CSV file
-    file_path = '../../assets/rosters/symphony_f24_roster.csv'
-    columns = ['Instrument', 'Name']  # Replace with your column names
-    df = pd.read_csv(file_path, usecols=columns)  
-    # Fill NaN values in 'Instrument' column with the previous value (forward fill)
-    df['Instrument'] = df['Instrument'].ffill() 
-    df['Instrument'] = df['Instrument'].str.lower()
-    # Group by 'Instrument' and aggregate the 'Name' column as a set
-    instrument_dict = df.groupby('Instrument')['Name'].apply(list).to_dict()
+                              'snare drum', 'tri/tamb/cymbal', 'cymbals' }
     instruments_w_diff_parts = ['flute', 'oboe', 'clarinet', 'bassoon',
                                 'trombone','trumpet', 'horn']
-    # Clean data for instrument and names
-    for instrument, names in list(instrument_dict.items()):
-        key = instrument
-        # Remove duplicate keys for percussion instruments
-        if instrument[:4] == "perc" or instrument in percussion_instruments:
-            instrument_dict['percussion'] = instrument_dict.get('percussion',[]) + names
-            instrument_dict.pop(instrument)
-            key = 'percussion'
-        # Remove duplicate keys in piccolo section
-        elif 'picc' in instrument and instrument != "piccolo":
-            instrument_dict['piccolo'] = instrument_dict.get('piccolo',[]) + names
-            instrument_dict.pop(instrument)
-            key = 'piccolo'
-        else:
-            # Remove duplicate keys in wind sections
-            for wind in instruments_w_diff_parts:
-                if wind in instrument:
-                    instrument_dict[wind] = instrument_dict.get(wind,[]) + names
-                    instrument_dict.pop(instrument)
-                    key = wind
-                    break
+    instrument_dict = dict()
 
-        # Clean the names and remove None or NaN values from the lists  
-        cleaned_names, additional_names, additional_instrument = clean_name(instrument_dict[key])  
-        instrument_dict[key] = cleaned_names
-        if len(additional_names) > 0:
-            instrument_dict[additional_instrument] = instrument_dict[additional_instrument] + additional_names
-            cleaned_additional_names, dummy1, dummy2 = clean_name(instrument_dict[additional_instrument])
-            instrument_dict[additional_instrument] = cleaned_additional_names
+    # Read CSV file
+    file_path = ['../../assets/rosters/symphony_f24_roster.csv', 
+                 '../../assets/rosters/chamber_f24_roster.csv']
+    columns = ['Instrument', 'Name']  # Replace with your column names
+    
+    # iterate and read from both symphony and chamber rosters
+    for path in file_path:
+        df = pd.read_csv(path, usecols=columns)  
+        # Fill NaN values in 'Instrument' column with the previous value (forward fill)
+        df['Instrument'] = df['Instrument'].ffill() 
+        df['Instrument'] = df['Instrument'].str.lower()
+        # Group by 'Instrument' and aggregate the 'Name' column as a set
+        initial_dict = df.groupby('Instrument')['Name'].apply(list).to_dict()
+        # add the information from initial dictionary to the instrument dictionary
+        for instrument, names in list(initial_dict.items()):
+            instrument_dict[instrument] = instrument_dict.get(instrument, []) + names
+        
+        # Clean data for instrument and names
+        for instrument, names in list(instrument_dict.items()):
+            key = instrument
+            # Remove duplicate keys for percussion instruments
+            if (instrument[:4] == "perc" and instrument != "percussion") or instrument in percussion_instruments:
+                instrument_dict['percussion'] = instrument_dict.get('percussion',[]) + names
+                instrument_dict.pop(instrument)
+                key = 'percussion'
+            # Remove duplicate keys in piccolo section
+            elif 'picc' in instrument and instrument != "piccolo":
+                instrument_dict['piccolo'] = instrument_dict.get('piccolo',[]) + names
+                instrument_dict.pop(instrument)
+                key = 'piccolo'
+            else:
+                # Remove duplicate keys in wind sections
+                for wind in instruments_w_diff_parts:
+                    if wind in instrument and wind != instrument:
+                        instrument_dict[wind] = instrument_dict.get(wind,[]) + names
+                        instrument_dict.pop(instrument)
+                        key = wind
+                        break
+
+            # Clean the names and remove None or NaN values from the lists  
+            cleaned_names, additional_names, additional_instrument = clean_name(instrument_dict[key])  
+            instrument_dict[key] = cleaned_names
+            if len(additional_names) > 0:
+                # add the additional information to the instrument dictionary
+                instrument_dict[additional_instrument] = instrument_dict[additional_instrument] + additional_names
+                cleaned_additional_names, dummy1, dummy2 = clean_name(instrument_dict[additional_instrument])
+                instrument_dict[additional_instrument] = cleaned_additional_names
            
     # instrument_dict contains the dictionary with instruments as keys and a list of players as values
 

@@ -23,10 +23,14 @@
         "Arielle Turullols",
         "Katie Robinson",
         "Caroline Kiesnowski",
-        "Maggie Stech"
-    ],
-    "cymbals": [
-        "Chloe Pratt"
+        "Maggie Stech",
+        "Lucy Wang",
+        "Anurag Kumar",
+        "Sofia Splawska",
+        "Nate Odonkor",
+        "Justin Mo",
+        "Mayuri Murugan",
+        "Karishma Kulshrestha"
     ],
     "harp": [
         "GUEST MUSICIAN: Arilyn Mitchell"
@@ -37,20 +41,22 @@
         "Cici Ge"
     ],
     "strings": [],
-    "tuba": [
-        "VACANT"
-    ],
+    "tuba": [],
     "viola": [
         "Julien Derroitte",
         "Anna Gu",
         "Zichu Wang",
         "Helen Zheng",
-        "Ilia Marty Urgen",
+        "Ilia Urgen",
         "Jerick Shi",
         "Ian Rosul",
         "Jaehyun Im",
         "Madison Staugaitis",
-        "Elizabeth Hsu"
+        "Elizabeth Hsu",
+        "Mia Manton",
+        "Ariana Watson",
+        "Jinhee Kim",
+        "Savithri Bhat"
     ],
     "violin 1": [
         "Emma Urgen",
@@ -75,7 +81,23 @@
         "Ethan Tran",
         "Sierra Green",
         "Lucy (Lin) Mo",
-        "David Zhang"
+        "David Zhang",
+        "Randall Zhang",
+        "Samuel Yang",
+        "Julia Song",
+        "Bridget Qiu",
+        "Jana Reiser",
+        "Robert Rosul",
+        "Catherine Gan Ung",
+        "Sarah Oh",
+        "Anqi Xie",
+        "Jessica Wen",
+        "Baili Jiang",
+        "Ryan Christinzio",
+        "Hyeyoon Song",
+        "Qiushi Zhang",
+        "Anthony Xu",
+        "Abigail Bao"
     ],
     "violin 2": [
         "Laura Lee",
@@ -95,18 +117,32 @@
         "Vishakha Joshi",
         "Juhee Park",
         "Joyce Wang",
-        "Daniela Bellido Rodriguez"
+        "Daniela Bellido Rodriguez",
+        "Liam Doherty",
+        "Jenny Quan",
+        "Katherine Sabak",
+        "Claire Meachen",
+        "Kshan Pandey",
+        "Luis River Lopez",
+        "Sri Thirumala",
+        "Hee So Kim",
+        "Leo Yang",
+        "Yu-An Tsai",
+        "Lynnette Ng",
+        "Ella Garruto",
+        "Kristen Lamberton"
     ],
     "percussion": [
         "Ishaan Masilamony",
+        "Chloe Pratt",
         "Serena Shih",
         "Elisabeth Finkel",
-        "Amanda Li",
-        "Chloe Pratt"
+        "Amanda Li"
     ],
     "bassoon": [
         "Aryn Gittis",
-        "GUEST MUISICIAN: Lauren Henning"
+        "GUEST MUISICIAN: Lauren Henning",
+        "John Newsom"
     ],
     "clarinet": [
         "Andrew Li",
@@ -115,7 +151,9 @@
         "Angela Shen",
         "Justin Wang",
         "Alena Lu",
-        "Ye Wei"
+        "Ye Wei",
+        "Siyi Tang",
+        "Iris Reed"
     ],
     "flute": [
         "Jill Kao",
@@ -124,23 +162,27 @@
         "Hannah Chen",
         "Evelyn Wu",
         "Emily Wang",
-        "Megan McDonnell"
+        "Megan McDonnell",
+        "Levana Lai"
     ],
     "horn": [
         "Keming Meng",
         "Xavier Rodriquez",
         "Ysanni Core",
         "Bridget McCoy",
-        "Joshua Baek"
+        "Joshua Baek",
+        "Kevin You"
     ],
     "oboe": [
         "John Kim",
         "Barbara Shinn-Cunningham",
-        "Jason H. Wells"
+        "Jason H. Wells",
+        "Jason H Wells",
+        "Gwyneth Luster"
     ],
     "trombone": [
-        "VACANT",
-        "Rebecca Stamm"
+        "Rebecca Stamm",
+        "Andrew Jiang"
     ],
     "trumpet": [
         "Bo Ahn",
