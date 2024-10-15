@@ -126,6 +126,45 @@ function dropdownClick() {
 
 window.addEventListener('DOMContentLoaded', () => {
     if (window.location.pathname.includes("concerts")) {
+        function addRoster(data) {
+            const instrumentSections = ['violin-1', 'violin-2', 'viola', 
+                                        'cello', 'flute', 'piccolo', 'oboe', 'clarinet',
+                                        'bassoon', 'horn','trumpet','trombone', 'tuba', 'percussion'];
+            for (instrument of instrumentSections) {
+                // define the key to access the data json
+                key = instrument;
+                // instrument is for defining instrumentContainer for HTML
+                if (instrument == 'violin-1') {
+                    key = 'violin 1';
+                } else if (instrument == 'violin-2') {
+                    key = 'violin 2';
+                }
+                // get players from each section and add them to HTML
+                for (player of data[key]) {
+                    const instrumentContainer = document.getElementsByClassName(instrument)[0]
+                    const newName = document.createElement("span");
+                    newName.innerHTML = `${player} <br>`;
+                    instrumentContainer.appendChild(newName);
+                }
+            }
+        }
+        
+        // getting roster data from flask api
+        function fetchData() {
+            /***** switch between the file paths to either call the api or read from json ******/
+            // api: 'http://127.0.0.1:5000/api/parsecsv'
+            // json file: '../backend/api/roster.json'
+            fetch('../backend/api/roster.json')
+                .then(response => response.json())
+                .then(data => {
+                    // document.getElementById('result').innerHTML = data.clarinet;
+                    addRoster(data);
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                });
+        }
+
         console.log(window.location.pathname);
         // Get the modal
         var modal = document.getElementById("posterModal");
@@ -160,45 +199,4 @@ window.addEventListener('DOMContentLoaded', () => {
     
 })
 
-// getting roster data from flask api
-function fetchData() {
-    /***** switch between the file paths to either call the api or read from json ******/
-    // api: 'http://127.0.0.1:5000/api/parsecsv'
-    // json file: '../backend/api/roster.json'
-    fetch('../backend/api/roster.json')
-        .then(response => response.json())
-        .then(data => {
-            // document.getElementById('result').innerHTML = data.clarinet;
-            addRoster(data);
-        })
-        .catch(error => {
-            console.error('Error fetching data:', error);
-        });
-}
 
-function addRoster(data) {
-    const instrumentSections = ['violin-1', 'violin-2', 'viola', 
-                                'cello', 'flute', 'piccolo', 'oboe', 'clarinet',
-                                'bassoon', 'horn','trumpet','trombone', 'tuba', 'percussion'];
-    for (instrument of instrumentSections) {
-        // define the key to access the data json
-        key = instrument;
-        // instrument is for defining instrumentContainer for HTML
-        if (instrument == 'violin-1') {
-            key = 'violin 1';
-        } else if (instrument == 'violin-2') {
-            key = 'violin 2';
-        }
-        // get players from each section and add them to HTML
-        for (player of data[key]) {
-            const instrumentContainer = document.getElementsByClassName(instrument)[0]
-            const newName = document.createElement("span");
-            newName.innerHTML = `${player} <br>`;
-            instrumentContainer.appendChild(newName);
-        }
-    }
-        
-
-    
-    
-}
