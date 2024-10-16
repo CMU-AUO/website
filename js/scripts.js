@@ -152,9 +152,9 @@ window.addEventListener('DOMContentLoaded', () => {
         // getting roster data from flask api
         function fetchData() {
             /***** switch between the file paths to either call the api or read from json ******/
-            // api: 'http://127.0.0.1:5000/api/parsecsv'
-            // json file: '../backend/api/roster.json'
-            fetch('../backend/api/roster.json')
+            const api_endpoint = 'http://127.0.0.1:5000/api/parsecsv'
+            const json_file_path = '../backend/api/roster.json'
+            fetch(json_file_path)
                 .then(response => response.json())
                 .then(data => {
                     // document.getElementById('result').innerHTML = data.clarinet;
