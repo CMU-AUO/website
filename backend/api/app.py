@@ -110,6 +110,9 @@ def get_parsed_data():
            
     # instrument_dict contains the dictionary with instruments as keys and a list of players as values
 
+    # sort player names in alphabetical order
+    for instrument, names in list(instrument_dict.items()):
+        instrument_dict[instrument] = sorted(names)
     data = instrument_dict
     
     import json
