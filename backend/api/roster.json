@@ -1,11 +1,15 @@
 {
     "bass": [
         "Adrien Marenco",
+        "GUEST MUSICIAN: Brian Bera",
+        "GUEST MUSICIAN: Nathan Graham",
+        "GUEST MUSICIAN: Sam Morgan",
         "Ina Han",
+        "Johnathan Subramanian",
         "Jonathan Subramanian"
     ],
     "celesta": [
-        "GUEST MUSICIAN"
+        "Rohan Parasnis"
     ],
     "cello": [
         "Adam Gockley",
@@ -19,16 +23,15 @@
         "Grace Ahn",
         "Jacob Milgrub",
         "Justin Mo",
-        "Karishma Kulshrestha",
         "Katie Robinson",
         "Kevin Dai",
-        "Lucy (Lexin) Wang",
+        "Lexin (Lucy) Wang",
+        "Lucy Wang",
         "Maggie Stech",
-        "Mayuri Murugan",
         "Melody Wang",
         "Nate Odonkor",
         "Nora Czajka",
-        "Sofia Splawska",
+        "Sarah Johnson",
         "Xiao Yuan"
     ],
     "harp": [
@@ -40,7 +43,9 @@
         "Megan McDonnell"
     ],
     "strings": [],
-    "tuba": ["TBD"],
+    "tuba": [
+        "GUEST MUSICIAN: Colby Bachelor"
+    ],
     "viola": [
         "Anna Gu",
         "Ariana Watson",
@@ -54,15 +59,12 @@
         "Julien Derroitte",
         "Madison Staugaitis",
         "Mia Manton",
-        "Savithri Bhat",
         "Zichu Wang"
     ],
     "violin 1": [
-        "Abigail Bao",
         "Alexander Harry Burton",
         "Amber Li",
         "Angelo Chen",
-        "Anqi Xie",
         "Anthony Xu",
         "Baili Jiang",
         "Ben Kehril",
@@ -79,7 +81,6 @@
         "Jana Reiser",
         "Jessica Wen",
         "Julia Song",
-        "Katelyn Chen",
         "Liam Doherty",
         "Lucy (Lin) Mo",
         "Michael Meng",
@@ -90,7 +91,6 @@
         "Robert Rosul",
         "Ryan Christinzio",
         "Samuel Yang",
-        "Sarah Oh",
         "Sierra Green",
         "Tianyun Zhang",
         "Tiffany Yang",
@@ -109,7 +109,6 @@
         "Hee So Kim",
         "Jenny Quan",
         "Joyce Wang",
-        "Juhee Park",
         "Katherine Sabak",
         "Kevin Qian",
         "Kristen Lamberton",
@@ -119,7 +118,7 @@
         "LiLi DiMuzio",
         "Liam Doherty",
         "Lilly Liebel",
-        "Luis River Lopez",
+        "Luis Rivera Lopez",
         "Lynnette Ng",
         "Megan Pearce",
         "Sarah Chung",
@@ -180,6 +179,8 @@
     ],
     "trombone": [
         "Andrew Jiang",
+        "GUEST MUSICIAN: John Humphreys",
+        "GUEST MUSICIAN: Taylor Jones",
         "Rebecca Stamm"
     ],
     "trumpet": [

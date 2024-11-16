@@ -109,16 +109,17 @@ def get_parsed_data():
                 instrument_dict[additional_instrument] = cleaned_additional_names
            
     # instrument_dict contains the dictionary with instruments as keys and a list of players as values
-
+    total_unique_members = 0
     # sort player names in alphabetical order
     for instrument, names in list(instrument_dict.items()):
         instrument_dict[instrument] = sorted(names)
+        total_unique_members += len(instrument_dict[instrument])
     data = instrument_dict
-    
+    ### uncomment the next line to get the number of AUO members
+    # data = {'members': total_unique_members};
     import json
     with open('roster.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
-        # f.write(json_string)
     
     return jsonify(data)
 
