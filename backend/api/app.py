@@ -5,6 +5,8 @@ from flask_cors import CORS
 # https://www.moesif.com/blog/technical/api-development/Building-RESTful-API-with-Flask/
 
 app = Flask(__name__)
+# added the size limit to address github resource exhaustion vulnerability
+app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # Limit to 16MB
 CORS(app)
 # to customize which domains are allowed to access the app
 # CORS(app, resources={r"/api/*": {"origins": "http://example.com"}})
