@@ -11532,6 +11532,7 @@ header.masthead .masthead-heading {
   height: 2.75rem;
 }
 
+/*
 section#contact {
   background-color: #212529;
   background-image: url("../assets/img/map-image.png");
@@ -11585,6 +11586,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
 }
+  */
 
 /* concert posters */
 .posters-container {
