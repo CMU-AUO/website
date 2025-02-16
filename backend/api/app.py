@@ -63,8 +63,8 @@ def get_parsed_data():
     instrument_dict = dict()
 
     # Read CSV file
-    file_path = ['../../assets/rosters/symphony_f24_roster.csv', 
-                 '../../assets/rosters/chamber_f24_roster.csv']
+    file_path = ['../../assets/rosters/symphony_s25_roster.csv', 
+                 '../../assets/rosters/chamber_s25_roster.csv']
     columns = ['Instrument', 'Name']  # Replace with your column names
     
     # iterate and read from both symphony and chamber rosters

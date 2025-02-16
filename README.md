@@ -4,7 +4,8 @@ This is the official website for the Carnegie Mellon All University Orchestra.
 ## Backend
 The backend is built using Flask and runs on a virtual environment. 
 When running the virtual environment, there should be a (.venv) in your terminal.
-To enable the virtual environment, run ```source .venv/bin/activate``` for macOS.
+To create a virtual environment, run ```python3 -m venv myvenv``` for macOS.
+To enable the virtual environment, run ```source myvenv/bin/activate``` for macOS.
 
 To run the Flask app, you need to install Flask and Pandas by running the following commands: 
 ```pip install flask```
