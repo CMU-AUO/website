@@ -120,9 +120,10 @@ function dropdownClick() {
   }
 
 // Alert for the release date of audition materials
-// window.addEventListener('DOMContentLoaded', () => {
-   
-// })
+window.addEventListener('DOMContentLoaded', () => {
+    if (window.location.pathname.includes('audition')) {
+        alert("Please fill out the interest form below if you wish to participate with the AUO organization in Fall 2025. \n\nAudition materials will be put up sometime in mid June 2025. ");}
+})
 
 window.addEventListener('DOMContentLoaded', () => {
     if (window.location.pathname.includes("concerts")) {
