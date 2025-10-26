@@ -195,7 +195,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }
 
         // get the roster data
-        // fetchData();
+        fetchData();
     }
     
 })
