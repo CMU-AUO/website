@@ -30,12 +30,23 @@ xmlns:fb="https://ogp.me/ns/fb#" lang="en">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" rel="canonical" href="/about">About / FAQ</a></li>
                         <li class="nav-item"><a class="nav-link" rel="canonical" href="/auditions">AUO Symphony Audition</a></li>
-                        <li class="nav-item"><a class="nav-link" rel="canonical" href="/concerts">Concerts</a></li>
+                        <li class="nav-item">
+                            <div class="inner-nav-dropdown nav-link" id="concerts-dropdown">
+                                <button class="inner-nav-dropbtn inner-nav-link text-uppercase" id="concerts-dropbtn">Concerts
+                                <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content" id="concerts-dropdown-content">
+                                <a href="/concerts">Upcoming Concerts</a>
+                                <a href="/concertoandaria">Concerto & Aria Competition</a>
+                                <a href="/pastconcerts">Past Concerts</a>
+                                </div>
+                            </div>
+                        </li>
                         <li class="nav-item"><a class="nav-link" rel="canonical" href="/rehearsals">Rehearsals</a></li>
                         <li class="nav-item"><a class="nav-link" rel="canonical" href="/media">Media</a></li>
-                        <li class="nav-item"><a class="nav-link" rel="canonical" href="/concertoandaria">Concerto & Aria Competition</a></li>
                         <li class="nav-item"><a class="nav-link" rel="canonical" href="/board">Board</a></li>
                         <li class="nav-item"><a class="nav-link" rel="canonical" href="/support">Support</a></li>
+                        <li class="nav-item"><a class="nav-link" rel="canonical" href="/resources">Member Resources</a></li>
                     </ul>
                 </div>
             </div>
@@ -76,7 +87,7 @@ xmlns:fb="https://ogp.me/ns/fb#" lang="en">
                 </div>
             </div>
         </section> -->
-        <section class="page-section" id="prev-winners">
+        <section class="page-section bg-light" id="prev-winners">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Previous Winners</h2>
