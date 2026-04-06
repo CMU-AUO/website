@@ -31,12 +31,23 @@ xmlns:fb="https://ogp.me/ns/fb#" lang="en">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" rel="canonical" href="/about">About / FAQ</a></li>
                         <li class="nav-item"><a class="nav-link" rel="canonical" href="/auditions">AUO Symphony Audition</a></li>
-                        <li class="nav-item"><a class="nav-link" rel="canonical" href="/concerts">Concerts</a></li>
+                        <li class="nav-item">
+                            <div class="inner-nav-dropdown nav-link" id="concerts-dropdown">
+                                <button class="inner-nav-dropbtn inner-nav-link text-uppercase" id="concerts-dropbtn">Concerts
+                                <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content" id="concerts-dropdown-content">
+                                <a href="/concerts">Upcoming Concerts</a>
+                                <a href="/concertoandaria">Concerto & Aria Competition</a>
+                                <a href="/pastconcerts">Past Concerts</a>
+                                </div>
+                            </div>
+                        </li>
                         <li class="nav-item"><a class="nav-link" rel="canonical" href="/rehearsals">Rehearsals</a></li>
                         <li class="nav-item"><a class="nav-link" rel="canonical" href="/media">Media</a></li>
-                        <li class="nav-item"><a class="nav-link" rel="canonical" href="/concertoandaria">Concerto &amp; Aria Competition</a></li>
                         <li class="nav-item"><a class="nav-link" rel="canonical" href="/board">Board</a></li>
                         <li class="nav-item"><a class="nav-link" rel="canonical" href="/support">Support</a></li>
+                        <li class="nav-item"><a class="nav-link" rel="canonical" href="/resources">Member Resources</a></li>
                     </ul>
                 </div>
             </div>
@@ -50,7 +61,7 @@ xmlns:fb="https://ogp.me/ns/fb#" lang="en">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Rehearsal Calendar</h2>
                 </div>
-                <iframe src="https://embed.styledcalendar.com/#Ax11Td4l9RmvobvFRkuQ" title="Styled Calendar" class="styled-calendar-container" style="width: 96%; border: none;" data-cy="calendar-embed-iframe"></iframe>
+                <iframe src="https://embed.styledcalendar.com/#Ax11Td4l9RmvobvFRkuQ" title="Styled Calendar" class="iframe-embeds styled-calendar-container" data-cy="calendar-embed-iframe"></iframe>
             </div>
         </section>
         <section class="page-section " id="symphony">
@@ -72,8 +83,6 @@ xmlns:fb="https://ogp.me/ns/fb#" lang="en">
                 <div class="text-justify">
                     <p class="text-muted">The AUO Chamber Orchestra meets every Sunday in the CUC Studio Theater between 8:30-10:00pm.</p>
                 </div>
-                
-                <!-- <img src="/assets/rehearsal_schedules/AUO_Chamber_S24_Schedule.png" width="100%" alt="..." /> -->
             </div>
         </section>
 

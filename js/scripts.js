@@ -45,8 +45,10 @@ window.addEventListener('DOMContentLoaded', event => {
     );
     responsiveNavItems.map(function (responsiveNavItem) {
         responsiveNavItem.addEventListener('click', () => {
-            if (window.getComputedStyle(navbarToggler).display !== 'none') {
-                navbarToggler.click();
+            if (!responsiveNavItem.classList.contains("inner-nav-dropbtn")) { // do not close main nav if toggling an inner dropdown
+                if (window.getComputedStyle(navbarToggler).display !== 'none') {
+                    navbarToggler.click();
+                }
             }
         });
     });
@@ -91,8 +93,10 @@ window.addEventListener('DOMContentLoaded', event => {
     );
     responsiveNavItems.map(function (responsiveNavItem) {
         responsiveNavItem.addEventListener('click', () => {
-            if (window.getComputedStyle(navbarToggler).display !== 'none') {
-                navbarToggler.click();
+            if (!responsiveNavItem.classList.contains("inner-nav-dropbtn")) {
+                if (window.getComputedStyle(navbarToggler).display !== 'none') {
+                    navbarToggler.click();
+                }
             }
         });
     });
@@ -119,6 +123,16 @@ function dropdownClick() {
     }
   }
 
+const concertsBtn = document.getElementById("concerts-dropbtn");
+const concertsContent = document.getElementById("concerts-dropdown");
+
+// Mobile: toggle concerts dropdown on click
+concertsBtn.addEventListener("click", (e) => {
+    e.stopPropagation(); // prevent triggering document click
+    concertsContent.classList.toggle("active");
+    console.log(concertsContent.classList);
+});
+
 // Alert for the release date of audition materials
 // window.addEventListener('DOMContentLoaded', () => {
 //     if (window.location.pathname.includes('audition')) {
@@ -126,7 +140,7 @@ function dropdownClick() {
 // })
 
 window.addEventListener('DOMContentLoaded', () => {
-    if (window.location.pathname.includes("concerts")) {
+    if (window.location.pathname.startsWith("/concerts")) {
         function addRoster(data) {
             const instrumentSections = ['violin-1', 'violin-2', 'viola', 
                                         'cello', 'flute', 'piccolo', 'oboe', 'clarinet',
@@ -166,7 +180,6 @@ window.addEventListener('DOMContentLoaded', () => {
                 });
         }
 
-        console.log(window.location.pathname);
         // Get the modal
         var modal = document.getElementById("posterModal");
 
@@ -197,7 +210,6 @@ window.addEventListener('DOMContentLoaded', () => {
         // get the roster data
         fetchData();
     }
-    
 })
 
 
