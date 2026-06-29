@@ -11239,7 +11239,7 @@ p {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-    background-color: transparent;
+    /* background-color: transparent; */
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #homeNav .navbar-brand {
@@ -11342,7 +11342,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg2.jpg");
+  background-image: url("../assets/img/header-bg3.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
