@@ -1,163 +1,199 @@
 {
     "bass": [
+        "Alexio Ciorra",
+        "Andrew Kunselman",
         "Dillon Rush",
-        "Guest Musician: Aidan Lobstein",
-        "Guest Musician: Isabella St. John",
-        "Guest Musician: Sam Morgan",
+        "Eric Zhao",
+        "Isabella St. John",
         "Johnathan Subramanian"
     ],
+    "bass = 6": [
+        "Alexio Ciorra",
+        "Andrew Kunselman",
+        "Dillon Rush",
+        "Eric Zhao",
+        "Isabella St. John"
+    ],
     "cello": [
-        "Adam Gockley",
         "Allison Xia",
+        "Annabelle Chan",
         "Anurag Kumar",
         "Connor Moroney",
         "Emma Botes",
         "Ethan Oh",
-        "Felicia Lee",
-        "Jackson Romero",
         "Jacob Milgrub",
-        "Justin Mo",
-        "Karishma Kulshrestha",
+        "Jason Yan",
         "Katie Robinson",
-        "Kevin Dai",
-        "Lucy Wang",
-        "William Zhang",
-        "Xiao Yuan"
+        "Lucy Ebben",
+        "Lynn Zhang",
+        "Rachel Smith",
+        "Scarlett Hartzman",
+        "Sharon Wu",
+        "Soheil Hildebrand"
+    ],
+    "cornet 1": [
+        "Mitchell Kang"
+    ],
+    "cornet 2": [
+        "Morgan Fanyo-Tabak"
+    ],
+    "glockenspiel": [
+        "Jacey Shi"
+    ],
+    "harp": [
+        "Anastasia Arango",
+        "Grace Kikuchi"
+    ],
+    "harp 1": [
+        "Grace Kikuchi"
+    ],
+    "oboe": [
+        "Daniel Yu",
+        "Jason H. Wells",
+        "Kira Russel",
+        "Lily Christopherson",
+        "Sharon Baek"
     ],
     "piccolo": [
-        "Bree Jun",
+        "Aarav Patel",
+        "Evelyn Wu",
         "Henry Zhao",
-        "Levana Lai",
-        "Sophia Dong"
+        "Leavana Lai",
+        "Stephen Zhang"
     ],
-    "tuba": [
-        "Guest Musician: Ethan Stainback"
+    "tam-tam": [
+        "Maximillian Lin"
     ],
+    "tuba": [],
     "viola": [
+        "Adria Jew",
         "Anna Gu",
-        "Grace Malinger",
+        "Anup Acharya",
+        "Bobby Kania",
         "Helen Zheng",
-        "Isabelle D'Amico",
-        "Julien Derroitte",
         "Katherine Liu",
+        "Lillian Walters",
         "Madison Staugaitis",
-        "Mia Manton",
-        "Sean Kelleher",
+        "Rosette Calvillo",
+        "Seán Kelleher",
         "Teddy Chen",
-        "Zichu Wang"
+        "William Holtz"
     ],
     "violin 1": [
-        "Alessandra Manganaro",
-        "Amber Li",
-        "Amy Zhang",
+        "Alan Yu",
+        "Andrew Xie",
         "Angelo Chen",
+        "Arav Santhanam",
         "Arisa Okamura",
-        "Catherine Gan",
-        "David Zhang",
+        "Audrey Huang",
+        "Audrey Lee",
+        "Brian Choi",
+        "Daisy Kim",
+        "Derek Huang",
         "Edward Li",
-        "Eric Zhang",
-        "Fi Abraham",
-        "Jasmine Kwasa",
-        "Julia Song",
-        "Matthew Fang",
-        "Michael Meng",
+        "Ethan Chiu",
+        "Ethan Zhou",
+        "Evan Lai",
+        "Geetika Gupta",
+        "Haiyue Ma",
+        "Henry Moffatt",
+        "Johnson Tsai",
+        "Leon Jiao",
+        "Mana Mizobuchi",
+        "Mia Kim",
         "Nicholas Cui",
-        "Olivia Liao",
-        "Owen Lu",
+        "Phi Abraham",
         "Ryan Christinzio",
-        "Samuel Yang",
-        "Tariq Shadhid",
+        "Shaun Wang",
+        "Tia Shahid",
         "Tianyun Zhang",
-        "Woojin Jun",
-        "Yasmine Yeung",
+        "Vaidehi Deshmukh",
+        "Victoria Coutright-Lim",
         "Zachary Xiao"
     ],
     "violin 2": [
-        "Allen Yang",
+        "Alessandra Manganaro",
+        "Alex Seltzer",
+        "Anthony Xu",
         "Baili Jiang",
-        "Caterina Wu",
-        "Claire Swift",
-        "Debbie Conejo",
+        "Beverly Amo",
+        "Cathy Wang",
         "Dominik Djajadi",
-        "Eunseo Lee",
+        "Esme Rubinstein",
         "Evan Lan",
-        "Hannah Jack",
         "Hannah Pearce",
-        "Hee So Kim",
-        "Jana Reiser",
+        "Hyeyoon Song",
         "Jason Lin",
-        "Jenny Quan",
+        "Konnor Lee",
         "Laura Lee",
-        "LiLi DiMuzio",
-        "Mark Shiau",
+        "Luke Li",
         "Megan Pearce",
+        "Michi Liang",
+        "Nara Anusonti-Inthra",
         "Oluwadamiloju Popoola",
-        "Sidney Young",
-        "Sophia Zhu",
-        "Taiga Nishida",
+        "Ricky He",
+        "Tavishi Sinha",
         "Veer Banwait",
         "Veronica Pak",
-        "Yu-An Tsai"
-    ],
-    "bassoon": [
-        "Aryn Gittis",
-        "Guest Musician: Camille Bove",
-        "Guest Musician: Steve Ehrin"
+        "Xun Meng"
     ],
     "clarinet": [
-        "Andrew Li",
-        "Anni Gribbin",
-        "Annie Gribbin",
-        "Jayden Ku",
+        "Alexander Petcu",
+        "Ani Gribbin",
         "Jesse Chen",
-        "Matthew Milunic",
-        "Minerva You",
-        "Peter Winstel",
-        "Soo Jung Lee",
-        "Ye Wei"
-    ],
-    "flute": [
-        "Bree Jun",
-        "Cici Ge",
-        "Evan Yang",
-        "Evelyn Wu",
-        "Henry Zhao",
-        "Jill Kao",
-        "Levana Lai",
-        "Liz Chu",
-        "Nikita Sane",
-        "Sophia Dong"
-    ],
-    "horn": [
-        "Guest Musician: Andrew Symington",
-        "Guest Musician: Kaytoya Ichoku",
-        "Joshua Baek",
-        "Ysanni Core"
-    ],
-    "oboe": [
-        "Barbara Shinn-Cunningham",
-        "Jason H. Wells (Ob+EH)",
-        "John Kim",
-        "Mridula Unni",
-        "Sharon Baek"
+        "Nirel Amoyaw",
+        "Samuel Bonner",
+        "Soo Jung Lee"
     ],
     "percussion": [
         "Chloe Pratt",
-        "Ishan Masilamony",
-        "Jarett Ren",
-        "Patton Johnson",
-        "Sam Finkel"
+        "Jarret Ren",
+        "Jiawei Li",
+        "Maximillian Lin",
+        "Thomas Amdur"
+    ],
+    "bassoon": [
+        "Aryn Gittis",
+        "Harhui Lee",
+        "Jason H. Wells",
+        "Sean Pellicciarini",
+        "Steve Ehrin"
+    ],
+    "horn": [
+        "Allan Lyu",
+        "Barbara Shinn-Cunningham",
+        "Christopher Giannaras",
+        "Dan McCarthy",
+        "Joshua Baek",
+        "Lexi Steen",
+        "Megumi Barclay",
+        "Ysaani Core"
+    ],
+    "flute": [
+        "Eesha Gadde",
+        "Evan Yang",
+        "Justine Tang",
+        "Nikita Sane",
+        "Sophia Dong",
+        "Sophie Wang"
     ],
     "trombone": [
-        "Guest Musician: Julia Nainiger",
+        "Bjorn Bungener",
+        "Fintan O'Keefe",
         "Kian Liao",
         "Krish Agarwal"
     ],
     "trumpet": [
-        "Guest Musician: Andrew Levin",
-        "Guest Musician: TBD",
-        "Marco Sung",
+        "Andrew Levin",
+        "Dr. Jeffrey Klefstad",
         "Mikayla Terrana",
-        "Nicholas Weng"
-    ]
+        "Nicholas Weng",
+        "Ryan Ou"
+    ],
+    "4 percussion": [
+        "Cymbals: TBD",
+        "Tambourine: TBD",
+        "Triangle: TBD"
+    ],
+    "harp or piano": []
 }

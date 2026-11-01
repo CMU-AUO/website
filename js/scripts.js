@@ -143,7 +143,7 @@ window.addEventListener('DOMContentLoaded', () => {
     if (window.location.pathname.startsWith("/concerts")) {
         function addRoster(data) {
             const instrumentSections = ['violin-1', 'violin-2', 'viola', 
-                                        'cello', 'flute', 'piccolo', 'oboe', 'clarinet',
+                                        'cello', 'bass', 'harp','flute', 'piccolo', 'oboe', 'clarinet',
                                         'bassoon', 'horn','trumpet','trombone', 'tuba', 'percussion'];
             for (instrument of instrumentSections) {
                 // define the key to access the data json
