@@ -133,6 +133,20 @@ concertsBtn.addEventListener("click", (e) => {
     console.log(concertsContent.classList);
 });
 
+// Push the home page banner below the fixed navbar
+window.addEventListener('DOMContentLoaded', () => {
+    const banner = document.getElementById('banner');
+    const homeNav = document.getElementById('homeNav');
+    if (!banner || !homeNav) {
+        return;
+    }
+    const offsetBanner = () => {
+        banner.style.marginTop = homeNav.offsetHeight + 'px';
+    };
+    // re-offset whenever the navbar changes height (scroll shrink, window resize, mobile menu)
+    new ResizeObserver(offsetBanner).observe(homeNav);
+});
+
 // Alert for the release date of audition materials
 // window.addEventListener('DOMContentLoaded', () => {
 //     if (window.location.pathname.includes('audition')) {
