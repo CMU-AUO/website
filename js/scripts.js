@@ -133,25 +133,21 @@ concertsBtn.addEventListener("click", (e) => {
     console.log(concertsContent.classList);
 });
 
-// Push the home page banner below the fixed navbar
+// Push the announcement banner below the fixed navbar
 window.addEventListener('DOMContentLoaded', () => {
     const banner = document.getElementById('banner');
-    const homeNav = document.getElementById('homeNav');
-    if (!banner || !homeNav) {
+    const navbar = document.querySelector('nav.fixed-top');
+    if (!banner || !navbar) {
         return;
     }
     const offsetBanner = () => {
-        banner.style.marginTop = homeNav.offsetHeight + 'px';
+        // use the exact (fractional) height, rounded down so the banner tucks under the
+        // navbar instead of leaving a sub-pixel gap
+        banner.style.marginTop = Math.floor(navbar.getBoundingClientRect().height) + 'px';
     };
     // re-offset whenever the navbar changes height (scroll shrink, window resize, mobile menu)
-    new ResizeObserver(offsetBanner).observe(homeNav);
+    new ResizeObserver(offsetBanner).observe(navbar);
 });
-
-// Alert for the release date of audition materials
-// window.addEventListener('DOMContentLoaded', () => {
-//     if (window.location.pathname.includes('audition')) {
-//         alert("Please fill out the interest form below if you wish to participate with the AUO organization in Fall 2025. \n\nAudition materials will be put up sometime in mid June 2025. ");}
-// })
 
 window.addEventListener('DOMContentLoaded', () => {
     if (window.location.pathname.startsWith("/concerts")) {
