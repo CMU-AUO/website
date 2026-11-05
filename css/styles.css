@@ -652,6 +652,12 @@ progress {
   flex: 30%;
 }
 
+@media (max-width: 767.98px) {
+  .column {
+    flex: 0 0 100%;
+  }
+}
+
 .iframe-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -3966,6 +3972,17 @@ textarea.form-control-lg {
   border-radius: 0.3rem;
 }
 
+.deadline-box {
+  background-color: #eef0f2;
+  border-left: 4px solid #8D0000;
+  border-radius: 0 0.3rem 0.3rem 0;
+}
+
+/* Extra offset so the fixed navbar doesn't cover the form when jumped to */
+#interest-form {
+  scroll-margin-top: 2rem;
+}
+
 #audition-dropdown {
   border-radius: 0.3rem;
   margin-top: 20px;
@@ -5785,10 +5802,12 @@ textarea.form-control-lg {
 }
 
 #discord-btn {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  width: fit-content;
+  margin: 2rem auto 0;
   background-color: #212529;
 }
 
