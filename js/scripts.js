@@ -217,6 +217,20 @@ window.addEventListener('DOMContentLoaded', () => {
             modal.style.display = "none";
         }
 
+        // Chamber modal
+        var chamberModal = document.getElementById("chamberPosterModal");
+        var chamberModalImg = document.getElementById("chamberModalImg");
+        var chamberCaptionText = document.getElementById("chamberCaption");
+        document.getElementById("chamberFallImg").onclick =
+        document.getElementById("chamberSpringImg").onclick = function(){
+            chamberModal.style.display = "block";
+            chamberModalImg.src = this.src;
+            chamberCaptionText.innerHTML = this.alt;
+        }
+        chamberModal.getElementsByClassName("close")[0].onclick = function() {
+            chamberModal.style.display = "none";
+        }
+
         // get the roster data
         fetchData();
     }

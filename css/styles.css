@@ -11729,8 +11729,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 .posters-container {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 6px;
-  column-gap: 10px;
+  gap: 10px;
   text-align: center;
   justify-content: center;
 }
@@ -11772,7 +11771,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
+#caption, #chamberCaption {
   margin: auto;
   display: block;
   width: 80%;
@@ -11784,7 +11783,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption {
+.modal-content, #caption, #chamberCaption {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
