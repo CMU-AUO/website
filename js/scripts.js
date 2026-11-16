@@ -130,7 +130,6 @@ const concertsContent = document.getElementById("concerts-dropdown");
 concertsBtn.addEventListener("click", (e) => {
     e.stopPropagation(); // prevent triggering document click
     concertsContent.classList.toggle("active");
-    console.log(concertsContent.classList);
 });
 
 // Push the announcement banner below the fixed navbar
