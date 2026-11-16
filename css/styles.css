@@ -11835,3 +11835,40 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+/* Mobile readability: more breathing room and gentler text layout */
+@media (max-width: 767.98px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .page-section {
+    padding: 4rem 0;
+  }
+
+  .page-section h2.section-heading, .page-section .section-heading.h2 {
+    font-size: 1.75rem;
+    line-height: 1.3;
+    margin-bottom: 1.5rem;
+  }
+
+  .page-section h4, .page-section .h4 {
+    font-size: 1.15rem;
+    line-height: 1.4;
+  }
+
+  /* Justified text creates large word gaps on narrow screens */
+  .text-justify {
+    text-align: left !important;
+  }
+
+  .page-section p {
+    margin-bottom: 1.25rem;
+  }
+
+  /* Give wrapped buttons room so they don't touch */
+  .page-section .text-center > .btn {
+    margin: 0.35rem 0.25rem;
+  }
+}

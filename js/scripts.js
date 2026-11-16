@@ -140,12 +140,19 @@ window.addEventListener('DOMContentLoaded', () => {
     if (!banner || !navbar) {
         return;
     }
+    const navbarToggler = navbar.querySelector('.navbar-toggler');
+    const navbarMenu = navbar.querySelector('.navbar-collapse');
     const offsetBanner = () => {
         // use the exact (fractional) height, rounded down so the banner tucks under the
         // navbar instead of leaving a sub-pixel gap
-        banner.style.marginTop = Math.floor(navbar.getBoundingClientRect().height) + 'px';
+        let height = navbar.getBoundingClientRect().height;
+        // on mobile, leave out the opened hamburger menu so it covers the banner instead of pushing it down
+        if (navbarMenu && window.getComputedStyle(navbarToggler).display !== 'none') {
+            height -= navbarMenu.getBoundingClientRect().height;
+        }
+        banner.style.marginTop = Math.floor(height) + 'px';
     };
-    // re-offset whenever the navbar changes height (scroll shrink, window resize, mobile menu)
+    // re-offset whenever the navbar changes height (scroll shrink, window resize)
     new ResizeObserver(offsetBanner).observe(navbar);
 });
 
