@@ -149,7 +149,11 @@ window.addEventListener('DOMContentLoaded', () => {
         if (navbarMenu && window.getComputedStyle(navbarToggler).display !== 'none') {
             height -= navbarMenu.getBoundingClientRect().height;
         }
-        banner.style.marginTop = Math.floor(height) + 'px';
+        // subtract anything already above the banner (e.g. a page's <br> spacer) so the
+        // page's original spacing is untouched whether the banner is in or commented out
+        const currentMargin = parseFloat(banner.style.marginTop) || 0;
+        const spaceAbove = banner.getBoundingClientRect().top + window.scrollY - currentMargin;
+        banner.style.marginTop = Math.floor(height - spaceAbove) + 'px';
     };
     // re-offset whenever the navbar changes height (scroll shrink, window resize)
     new ResizeObserver(offsetBanner).observe(navbar);
